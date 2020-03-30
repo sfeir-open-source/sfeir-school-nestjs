@@ -1,16 +1,16 @@
-<!-- .slide: class="first-slide" sfeir-level="2" sfeir-techno="xxx" -->
+<!-- .slide: class="first-slide first-red" sfeir-level="2" sfeir-techno="pwa" -->
 
-# **Welcome to Sfeir School**
+# **Bienvenue à la formation**
 
-## **XXX 200**
+## **NestJS-200**
 
 ##==##
 
 <!-- .slide: class="school-presentation" -->
 
 <div class="wifi">
-    <span class="key">wifi:</span><span>SSID</span><br>
-    <span class="key">mdp:</span><span>PWD_WIFI</span>
+    <span class="key">wifi:</span><span>TBS</span><br>
+    <span class="key">mdp:</span><span>XXX</span>
 </div>
 
 ##==##
@@ -26,4 +26,4 @@ Tour de table ...
 
 **Feuille de présence (obligatoire)** <!-- .element: class="center" -->
 
-https://bit.ly/sfeir-xxx <!-- .element: class="center" -->
+https://bit.ly/sfeir-nestjs200 <!-- .element: class="center" -->
