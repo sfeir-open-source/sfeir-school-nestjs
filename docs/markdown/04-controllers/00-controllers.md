@@ -11,6 +11,8 @@ Responsable du traitement des **requêtes http** entrantes et du renvoi des **r�
 
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Controllers
 
 * Décorateur **@Controller** indiquant la route
@@ -30,6 +32,8 @@ export class DemosController {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Controllers
 
 Le controller doit être déclaré dans le module
@@ -43,6 +47,8 @@ Le controller doit être déclaré dans le module
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # CRUD (POST)
 En utilisant le DTO suivant (create-demo.dto.ts):
 
@@ -62,6 +68,8 @@ async create(@Body() createDemoDto: CreateDemoDto) {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # CRUD (GET)
 ```
   @Get()
@@ -78,6 +86,8 @@ async create(@Body() createDemoDto: CreateDemoDto) {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # CRUD (PUT)
 ```
   @Put(':id')
@@ -87,6 +97,8 @@ async create(@Body() createDemoDto: CreateDemoDto) {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # CRUD (DELETE)
 ```
  @Delete(':id')
@@ -96,6 +108,8 @@ async create(@Body() createDemoDto: CreateDemoDto) {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Asynchrone
 
 ```
@@ -113,6 +127,8 @@ findAll(): Observable<any[]> {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Global Prefix
 
 Dans le **main.ts** il est possible d’ajouter un prefix d’api global
