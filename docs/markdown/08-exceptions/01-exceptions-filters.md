@@ -7,6 +7,8 @@
 Les exceptions de base répondent déjà à un grand cas d’utilisations. Cependant il peut-être utile d’ajouter d’autres informations comme des logs ou une modification du json de la response.
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # http-exception.filter.ts
 ```
 import { ExceptionFilter, Catch, ArgumentsHost, HttpException } from '@nestjs/common'; 
@@ -35,6 +37,8 @@ export class HttpExceptionFilter implements ExceptionFilter {
 L’annotation **@UseFilters()** du package **@nestjs/common** permet de catcher l’exception à différents niveaux.
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Sur une action
 ```
 @Post()
@@ -45,6 +49,8 @@ async create(@Body() createDemoDto: CreateDemoDto) {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Sur un controller
 Utilisation de l’annotation **@UseFilters**
 
@@ -54,6 +60,8 @@ export class UsersController {}
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Au niveau global
 ```
 async function bootstrap() {
@@ -65,6 +73,8 @@ bootstrap();
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Catch'Em All
 
 Il est possible de catch toutes les exceptions en utilisant l’annotation @catch sans paramètres.
