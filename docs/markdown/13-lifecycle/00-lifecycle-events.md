@@ -12,6 +12,8 @@ Après la création d’un composant Injectable ou un Controller, il est possibl
 * **OnApplicationShutdown**: à la fermeture de l’application
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Example
 ```
 import { Injectable, OnModuleInit } from '@nestjs/common';

@@ -3,6 +3,8 @@
 # Custom decorators
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Create Decorator
 Il est possible de définir ses propres decorator pour notamment rendre le code plus lisible.
 ```
@@ -14,6 +16,8 @@ export const User = createParamDecorator((data, req) => {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Utilisation dans le Controller
 On peut alors utiliser l’annotation @User pour directement récupérer le User de la requête.
 
@@ -25,6 +29,8 @@ async findOne(@User() user: UserEntity) {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Récupération d'une data
 
 Il est possible de récupérer une donnée d’un objet.
