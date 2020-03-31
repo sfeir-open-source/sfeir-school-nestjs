@@ -6,12 +6,14 @@
 ##==##
 
 # NestJS CLI
-![float-left](./assets/images/g5a1be44b75_0_11.png)
+![float-left w-800](./assets/images/g5a1be44b75_0_11.png)
 
 https://github.com/nestjs/nest-cli
 
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Créer un nouveau projet
 
 ```
@@ -20,6 +22,7 @@ $ nest new project-name
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
 
 # Configuration
 
@@ -34,6 +37,8 @@ $ nest new project-name
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Postman / Insomnia
 <div class="flex-row"> 
 <div class="w-500">
