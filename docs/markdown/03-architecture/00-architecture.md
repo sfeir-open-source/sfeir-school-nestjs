@@ -3,6 +3,7 @@
 # Architecture globale
 
 ##==##
+<!-- .slide: class="with-code" -->
 
 # Bootstrap
 
@@ -21,6 +22,8 @@ bootstrap();
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Module 
 
 Module principal de l’application (app.module.ts)
