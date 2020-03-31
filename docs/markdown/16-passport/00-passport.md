@@ -14,6 +14,8 @@ Il est possible d’utiliser :
 https://docs.nestjs.com/techniques/authentication
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Bearer strategy (service)
 ```
 import { Injectable } from '@nestjs/common';
@@ -32,6 +34,8 @@ export class AuthService {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Bearer strategy (strategy)
 ```
 import { Strategy } from 'passport-http-bearer';

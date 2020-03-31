@@ -3,6 +3,8 @@
 # TypeORM
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Présentation
 TypeORM est l’ORM (Object Relational Mapper) le plus mature et a été choisi par défaut par NestJS.
 
@@ -11,6 +13,8 @@ $ npm install --save @nestjs/typeorm typeorm mysql
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # MySQL
 Utilisation d’un fichier de configuration ormconfig.json
 
@@ -28,6 +32,8 @@ Utilisation d’un fichier de configuration ormconfig.json
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Import
 
 On peut ensuite importer le module TypeORM
@@ -40,6 +46,8 @@ On peut ensuite importer le module TypeORM
 Il est alors possible d’injecter Connection et EntityManager à travers tout le projet.
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Entity
 
 Dans le pattern Repository, il faut tout d’abord créer une entity.
@@ -63,6 +71,8 @@ export class School {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Domain Module
 Un sous module définissant le domaine permettant d’organiser le projet. forFeature permet d’injecter le repository directement dans le service.
 
@@ -78,6 +88,8 @@ export class SchoolModule {}
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Service
 ```
 import ...

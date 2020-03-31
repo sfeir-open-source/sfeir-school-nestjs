@@ -3,6 +3,8 @@
 # Sécurtié
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Helmet
 Helmet peut aider à protéger votre application contre certaines vulnérabilités Web bien connues en définissant les en-têtes HTTP de manière appropriée.
 
@@ -15,6 +17,8 @@ app.use(helmet());
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # CORS
 Cross-origin resource sharing (CORS) est un mécanisme qui permet de demander des ressources à un autre domaine. 
 Sous le capot, Nest utilise le package cors, qui fournit une multitude d’options que vous pouvez personnaliser en fonction de vos besoins.
@@ -26,6 +30,8 @@ await app.listen(3000);
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # CSRF
 Cross-site request forgery (known as CSRF or XSRF) est un type d’exploitation malveillante d’un site Web dans lequel des commandes non autorisées sont transmises à partir d’un utilisateur approuvé par l’application Web. Pour atténuer ce type d'attaques, vous pouvez utiliser le package csurf.
 
@@ -39,6 +45,8 @@ app.use(csurf());
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Rate Limiting
 Pour se protéger des attaques de type brute-force il est possible de mettre en place une limitation du débit.
 
