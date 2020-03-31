@@ -8,18 +8,18 @@ https://github.com/Sfeir/nestjs-200.git
 
 
 ##==##
+<!-- .slide: class="with-code" -->
 
 # Déroulement de la formation
-
 
 ```
 $ git clone https://github.com/Sfeir/nestjs-200.git
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
 
 # Déroulement de la formation
-
 
 ```
 $ cd nestjs-200
@@ -33,9 +33,9 @@ server ->  http://localhost:3000/
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
 
 # Déroulement de la formation
-
 
 Un concept clé de NestJS
 
