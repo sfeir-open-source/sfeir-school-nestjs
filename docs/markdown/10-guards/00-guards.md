@@ -12,6 +12,8 @@ Les guards sont exécutés après chaque middleware, mais avant tout intercepteu
 
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Authorization guard
 
 Dans l’exemple ci-dessous, il est possible de valider la request de manière simple ou plus complexe avec la méthode validateRequest.
@@ -32,6 +34,8 @@ export class AuthGuard implements CanActivate {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Sur un controller
 Utilisation de l’annotation @UseGuards
 
@@ -42,6 +46,8 @@ export class DemosController {}
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Au niveau global
 ```
 async function bootstrap() {

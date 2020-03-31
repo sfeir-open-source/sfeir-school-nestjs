@@ -18,6 +18,8 @@ Les pipes servent à :
 * ValidationPipe
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # ParseIntPipe
 ```
 @Get(':id')
@@ -27,6 +29,8 @@ async findOne(@Param('id', new ParseIntPipe()) id) {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # ValidationPipe (class-validator)
 Il faut tout d’abord installer class-validator qui est un puissant package de validation par annotations.
 
@@ -37,6 +41,8 @@ $ npm install --save class-validator class-transformer
 https://github.com/typestack/class-validator
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Au niveau global
 ```
 async function bootstrap() {
@@ -48,6 +54,8 @@ bootstrap();
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Au niveau du DTO
 ```
 import { IsEmail, IsNotEmpty } from 'class-validator';
@@ -62,6 +70,8 @@ export class CreateUserDto {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Message d'erreur
 Si problème de validation alors une erreur 400 Bad Request sera renvoyée.
 
@@ -83,6 +93,8 @@ Si problème de validation alors une erreur 400 Bad Request sera renvoyée.
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # En production
 Suppression des détails dans les messages d’erreur.
 
@@ -95,6 +107,8 @@ app.useGlobalPipes(
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Stripping properties
 
 

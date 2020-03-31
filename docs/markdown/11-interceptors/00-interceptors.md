@@ -11,6 +11,8 @@ Ils permettent de faire de la transformation, ajouter de la logique avant/après
 ![full-width](./assets/images/g5c833a2249_0_311.png)
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Implémentation
 
 L’interceptor doit implémenter NestInterceptor et définir la méthode intercept.
@@ -35,6 +37,8 @@ export class LoggingInterceptor implements NestInterceptor {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Sur un controller
 Utilisation de l’annotation @UseInterceptors
 
@@ -44,6 +48,8 @@ export class DemosController {}
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Au niveau global
 ```
 async function bootstrap() {
@@ -65,6 +71,8 @@ Voici différents cas d’utilisation pour montrer la variété qu’offre les i
 * Gérer un timeout
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Modification de la réponse
 
 Modification de la réponse http
@@ -76,6 +84,8 @@ intercept(context: ExecutionContext, next: CallHandler): Observable<Response<T>>
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Exception override
 Il est possible de surcharger une exception
 
@@ -90,6 +100,8 @@ intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Gestion du cache
 Exemple simple de gestion du cache (non réaliste)
 
@@ -104,6 +116,8 @@ intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Gestion du timeout
 Après 5 secondes, le traitement de la demande sera annulé
 
