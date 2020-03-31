@@ -23,6 +23,8 @@ Si la fonction middleware en cours ne termine pas le cycle de demande-réponse, 
 https://expressjs.com/fr/guide/using-middleware.html
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Simple Class Middleware example
 Exemple d’un simple logger Middleware dans une classe
 
@@ -40,6 +42,8 @@ export class LoggerMiddleware implements NestMiddleware {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Utilisation du Middleware
 La configuration se fait en utilisant la méthode **configure()** de la classe de module. Les modules qui incluent un middleware doivent implémenter l'interface NestModule. 
 
@@ -61,6 +65,8 @@ export class ApplicationModule implements NestModule {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Route spécifique
 Il est possible d’appliquer un Middleware uniquement pour une route spécifique et un type de méthode request 
 
@@ -73,6 +79,8 @@ consumer
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Route wildcards
 Il est possible d’appliquer un Middleware uniquement pour une route spécifique 
 
@@ -82,6 +90,8 @@ forRoutes({ path: 'ab*cd', method: RequestMethod.ALL });
 
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Middleware Consumer
 Le MiddlewareConsumer peut aussi prendre en paramètre 1 ou plusieurs controllers
 
@@ -105,6 +115,8 @@ consumer
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Simple Function Middleware example
 Exemple d’un simple logger Middleware dans une fonction (quand aucune dépendance n’est nécessaire)
 
@@ -120,6 +132,8 @@ consumer
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Multiple Middleware
 Il est possible de chaîner plusieurs Middlewares (l’ordre est important)
 ```
@@ -127,6 +141,8 @@ consumer.apply(cors(), helmet(), logger).forRoutes(DemosController);
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Global Middleware
 Si nous voulons lier un middleware à toutes les routes, nous pouvons utiliser la méthode use () fournie par l'instance INestApplication
 ```

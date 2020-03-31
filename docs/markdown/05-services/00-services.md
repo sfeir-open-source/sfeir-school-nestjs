@@ -10,6 +10,8 @@
 
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Injectable
 ```
 import { Injectable } from '@nestjs/common';
@@ -23,6 +25,8 @@ export class DemosService {
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Module
 
 Enregistrement du service dans le module :
@@ -35,6 +39,8 @@ Enregistrement du service dans le module :
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Injection de dépendance
 Afin de pouvoir utiliser un service dans une autre classe, ce dernier doit être injecté dans le constructor.
 ```

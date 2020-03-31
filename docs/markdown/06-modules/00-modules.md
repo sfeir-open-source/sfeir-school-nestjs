@@ -3,6 +3,8 @@
 # Modules
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Modules
 
 Les modules sont des singletons par défaut, ainsi le contenu peut être partagé sans effort à un autre module en utilisant la fonction export.
@@ -20,6 +22,8 @@ export class DemosModule {}
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Modules
 
 Il est ainsi possible de ré-exporter des modules
@@ -33,6 +37,8 @@ export class CoreModule {}
 ```
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Modules
 Les providers sont par défaut restreint au scope du module. 
 Pour qu’un ensemble de providers soit disponible à travers toute l’application, l’annotation **@Global** est utilisée
