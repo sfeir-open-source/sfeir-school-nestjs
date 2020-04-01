@@ -16,7 +16,7 @@ https://github.com/nestjs/nest-cli
 
 # Créer un nouveau projet
 
-```
+```shell script
 $ nest new project-name
 
 ```
