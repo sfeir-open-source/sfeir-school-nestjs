@@ -10,7 +10,7 @@ Les exceptions de base répondent déjà à un grand cas d’utilisations. Cepen
 <!-- .slide: class="with-code" -->
 
 # http-exception.filter.ts
-```
+```typescript
 import { ExceptionFilter, Catch, ArgumentsHost, HttpException } from '@nestjs/common'; 
 import { Request, Response } from 'express'; 
 
@@ -40,7 +40,7 @@ L’annotation **@UseFilters()** du package **@nestjs/common** permet de catcher
 <!-- .slide: class="with-code" -->
 
 # Sur une action
-```
+```typescript
 @Post()
 @UseFilters(HttpExceptionFilter)
 async create(@Body() createDemoDto: CreateDemoDto) {
@@ -54,7 +54,7 @@ async create(@Body() createDemoDto: CreateDemoDto) {
 # Sur un controller
 Utilisation de l’annotation **@UseFilters**
 
-```
+```typescript
 @UseFilters(new HttpExceptionFilter())
 export class UsersController {}
 ```
@@ -63,7 +63,7 @@ export class UsersController {}
 <!-- .slide: class="with-code" -->
 
 # Au niveau global
-```
+```typescript
 async function bootstrap() {
   const app = await NestFactory.create(ApplicationModule);
   app.useGlobalFilters(new HttpExceptionFilter());
@@ -79,7 +79,7 @@ bootstrap();
 
 Il est possible de catch toutes les exceptions en utilisant l’annotation @catch sans paramètres.
 
-```
+```typescript
 @Catch()
 export class AllExceptionsFilter implements ExceptionFilter {
 …
