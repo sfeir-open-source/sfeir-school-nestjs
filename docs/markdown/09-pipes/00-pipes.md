@@ -21,7 +21,7 @@ Les pipes servent à :
 <!-- .slide: class="with-code" -->
 
 # ParseIntPipe
-```
+```typescript
 @Get(':id')
 async findOne(@Param('id', new ParseIntPipe()) id) {
   return await this.demosService.findOne(id);
@@ -34,7 +34,7 @@ async findOne(@Param('id', new ParseIntPipe()) id) {
 # ValidationPipe (class-validator)
 Il faut tout d’abord installer class-validator qui est un puissant package de validation par annotations.
 
-```
+```shell script
 $ npm install --save class-validator class-transformer
 ```
 
@@ -44,7 +44,7 @@ https://github.com/typestack/class-validator
 <!-- .slide: class="with-code" -->
 
 # Au niveau global
-```
+```typescript
 async function bootstrap() {
   const app = await NestFactory.create(ApplicationModule);
   app.useGlobalPipes(new ValidationPipe());
@@ -57,7 +57,7 @@ bootstrap();
 <!-- .slide: class="with-code" -->
 
 # Au niveau du DTO
-```
+```typescript
 import { IsEmail, IsNotEmpty } from 'class-validator';
 
 export class CreateUserDto {
@@ -75,7 +75,7 @@ export class CreateUserDto {
 # Message d'erreur
 Si problème de validation alors une erreur 400 Bad Request sera renvoyée.
 
-```
+```json
 {
   "statusCode": 400,
   "error": "Bad Request",
@@ -98,7 +98,7 @@ Si problème de validation alors une erreur 400 Bad Request sera renvoyée.
 # En production
 Suppression des détails dans les messages d’erreur.
 
-```
+```typescript
 app.useGlobalPipes(
   new ValidationPipe({
     disableErrorMessages: true,
@@ -114,7 +114,7 @@ app.useGlobalPipes(
 
 Si certaines propriétés ne sont pas attendues dans le DTO, alors **whitelist** permettra de supprimer ces propriétés au moment de la validation. L’utilisation de **forbidNonWhitelisted** retournera en revanche un message d’erreur.
 
-```
+```typescript
 app.useGlobalPipes(
   new ValidationPipe({
     whitelist: true,
