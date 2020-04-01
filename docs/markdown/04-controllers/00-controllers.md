@@ -19,7 +19,7 @@ Responsable du traitement des **requêtes http** entrantes et du renvoi des **r�
 * Décorateur **@Get**, **@Post**, **@Put**, **@Delete**… décrivant la méthode http de l’action
 * L’action qui est la méthode du controller
 
-```
+```typescript
 import { Controller, Get } from '@nestjs/common';
 
 @Controller('demos')
@@ -38,7 +38,7 @@ export class DemosController {
 
 Le controller doit être déclaré dans le module
 
-```
+```typescript
 @Module({ 
     imports: [], 
     controllers: [AppController, DemosController], 
@@ -52,7 +52,7 @@ Le controller doit être déclaré dans le module
 # CRUD (POST)
 En utilisant le DTO suivant (create-demo.dto.ts):
 
-```
+```typescript
 export class CreateDemoDto {
   readonly name: string;
   readonly surname: string;
@@ -60,7 +60,7 @@ export class CreateDemoDto {
 }
 ```
 
-```
+```typescript
 @Post()
 async create(@Body() createDemoDto: CreateDemoDto) {
   return 'This action adds a new demo';
@@ -71,14 +71,14 @@ async create(@Body() createDemoDto: CreateDemoDto) {
 <!-- .slide: class="with-code" -->
 
 # CRUD (GET)
-```
+```typescript
   @Get()
   findAll(@Query() query: ListAllEntities) {
     return `This action returns all demos (limit: ${query.limit} demos)`;
   }
 ```
 
-```
+```typescript
   @Get(':id')
   findOne(@Param('id') id: string) {
     return `This action returns a #${id} demo`;
@@ -89,7 +89,7 @@ async create(@Body() createDemoDto: CreateDemoDto) {
 <!-- .slide: class="with-code" -->
 
 # CRUD (PUT)
-```
+```typescript
   @Put(':id')
   update(@Param('id') id: string, @Body() updateDemoDto: UpdateDemoDto) {
     return `This action updates a #${id} demo`;
@@ -100,7 +100,7 @@ async create(@Body() createDemoDto: CreateDemoDto) {
 <!-- .slide: class="with-code" -->
 
 # CRUD (DELETE)
-```
+```typescript
  @Delete(':id')
   remove(@Param('id') id: string) {
     return `This action removes a #${id} demo`;
@@ -112,14 +112,13 @@ async create(@Body() createDemoDto: CreateDemoDto) {
 
 # Asynchrone
 
-```
-@Get()
+```typescript
 async findAll(): Promise<any[]> {
   return [];
 }
 ```
 
-```
+```typescript
 @Get()
 findAll(): Observable<any[]> {
   return of([]);
@@ -133,7 +132,7 @@ findAll(): Observable<any[]> {
 
 Dans le **main.ts** il est possible d’ajouter un prefix d’api global
 
-```
+```typescript
 app.setGlobalPrefix('api');
 ```
 
