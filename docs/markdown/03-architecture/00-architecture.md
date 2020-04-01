@@ -9,7 +9,7 @@
 
 Point d’entrée de l’application **(main.ts)**
 
-```
+```typescript
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
@@ -18,7 +18,6 @@ async function bootstrap() {
     await app.listen(3000); 
 } 
 bootstrap();
-
 ```
 
 ##==##
@@ -28,7 +27,7 @@ bootstrap();
 
 Module principal de l’application (app.module.ts)
 
-```
+```typescript
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
