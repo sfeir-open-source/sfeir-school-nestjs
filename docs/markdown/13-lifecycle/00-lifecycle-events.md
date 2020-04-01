@@ -15,7 +15,7 @@ Après la création d’un composant Injectable ou un Controller, il est possibl
 <!-- .slide: class="with-code" -->
 
 # Example
-```
+```typescript
 import { Injectable, OnModuleInit } from '@nestjs/common';
 
 @Injectable()
