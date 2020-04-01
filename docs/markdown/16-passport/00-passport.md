@@ -17,7 +17,7 @@ https://docs.nestjs.com/techniques/authentication
 <!-- .slide: class="with-code" -->
 
 # Bearer strategy (service)
-```
+```typescript
 import { Injectable } from '@nestjs/common';
 import { UsersService } from '../users/users.service';
 
@@ -37,7 +37,7 @@ export class AuthService {
 <!-- .slide: class="with-code" -->
 
 # Bearer strategy (strategy)
-```
+```typescript
 import { Strategy } from 'passport-http-bearer';
 import { PassportStrategy } from '@nestjs/passport';
 import { Injectable, UnauthorizedException } from '@nestjs/common';

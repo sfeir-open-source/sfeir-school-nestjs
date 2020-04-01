@@ -6,13 +6,13 @@
 # Install
 La spécification OpenAPI (Swagger) est un format de définition puissant pour décrire les API RESTful. Nest fournit un module dédié pour l'utiliser.
 
-```
+```shell script
 $ npm install --save @nestjs/swagger swagger-ui-express
 ```
 
 ##==##
 # Bootstrap
-```
+```typescript
 import { NestFactory } from '@nestjs/core';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { ApplicationModule } from './app.module';
@@ -38,7 +38,7 @@ bootstrap();
 # DTO
 Chaque propriété du DTO doit être annoté avec @ApiModelProperty. L’annotation @ApiModelPropertyOptional permet de définir si un champs est obligatoire ou non.
 
-```
+```typescript
 import { ApiModelProperty } from '@nestjs/swagger';
 
 export class CreateDemoDto {
