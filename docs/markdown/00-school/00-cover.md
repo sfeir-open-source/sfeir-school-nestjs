@@ -1,4 +1,4 @@
-<!-- .slide: class="first-slide first-red" sfeir-level="2" sfeir-techno="pwa" -->
+<!-- .slide: class="first-slide first-red" sfeir-level="2" sfeir-techno="nestjs" -->
 
 # **Bienvenue à la formation**
 
@@ -26,4 +26,4 @@ Tour de table ...
 
 **Feuille de présence (obligatoire)** <!-- .element: class="center" -->
 
-https://bit.ly/sfeir-nestjs200 <!-- .element: class="center" -->
+https://github.com/sfeir-open-source/sfeir-school-nestjs <!-- .element: class="center" -->
