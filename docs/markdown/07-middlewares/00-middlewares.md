@@ -28,7 +28,7 @@ https://expressjs.com/fr/guide/using-middleware.html
 # Simple Class Middleware example
 Exemple d’un simple logger Middleware dans une classe
 
-```
+```typescript
 import { Injectable, NestMiddleware } from '@nestjs/common';
 import { Request, Response } from 'express';
 
@@ -47,7 +47,7 @@ export class LoggerMiddleware implements NestMiddleware {
 # Utilisation du Middleware
 La configuration se fait en utilisant la méthode **configure()** de la classe de module. Les modules qui incluent un middleware doivent implémenter l'interface NestModule. 
 
-```
+```typescript
 import { Module, NestModule, MiddlewareConsumer } from '@nestjs/common';
 import { LoggerMiddleware } from './common/middleware/logger.middleware';
 import { UsersModule } from './demos/demos.module';
@@ -70,7 +70,7 @@ export class ApplicationModule implements NestModule {
 # Route spécifique
 Il est possible d’appliquer un Middleware uniquement pour une route spécifique et un type de méthode request 
 
-```
+```typescript
 configure(consumer: MiddlewareConsumer) {
 consumer
   .apply(LoggerMiddleware)
@@ -84,7 +84,7 @@ consumer
 # Route wildcards
 Il est possible d’appliquer un Middleware uniquement pour une route spécifique 
 
-```
+```typescript
 forRoutes({ path: 'ab*cd', method: RequestMethod.ALL });
 ```
 
@@ -95,7 +95,7 @@ forRoutes({ path: 'ab*cd', method: RequestMethod.ALL });
 # Middleware Consumer
 Le MiddlewareConsumer peut aussi prendre en paramètre 1 ou plusieurs controllers
 
-```
+```typescript
 configure(consumer: MiddlewareConsumer) {
     consumer
       .apply(LoggerMiddleware)
@@ -104,7 +104,7 @@ configure(consumer: MiddlewareConsumer) {
 ```
 Il est possible d’exclure des routes
 
-```
+```typescript
 consumer
   .apply(LoggerMiddleware)
   .exclude(
@@ -120,7 +120,7 @@ consumer
 # Simple Function Middleware example
 Exemple d’un simple logger Middleware dans une fonction (quand aucune dépendance n’est nécessaire)
 
-```
+```typescript
 export function logger(req, res, next) {
   console.log(`Request...`);
   next();
@@ -136,7 +136,7 @@ consumer
 
 # Multiple Middleware
 Il est possible de chaîner plusieurs Middlewares (l’ordre est important)
-```
+```typescript
 consumer.apply(cors(), helmet(), logger).forRoutes(DemosController);
 ```
 
@@ -145,7 +145,7 @@ consumer.apply(cors(), helmet(), logger).forRoutes(DemosController);
 
 # Global Middleware
 Si nous voulons lier un middleware à toutes les routes, nous pouvons utiliser la méthode use () fournie par l'instance INestApplication
-```
+```typescript
 const app = await NestFactory.create(ApplicationModule);
 app.use(logger);
 await app.listen(3000);

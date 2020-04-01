@@ -43,7 +43,7 @@ export class CoreModule {}
 Les providers sont par défaut restreint au scope du module. 
 Pour qu’un ensemble de providers soit disponible à travers toute l’application, l’annotation **@Global** est utilisée
 
-```
+```typescript
 import { Module, Global } from '@nestjs/common';
 import { DemosService } from './demos.service';
 
