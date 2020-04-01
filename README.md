@@ -3,7 +3,7 @@ This is a Nest framework TypeScript [SFEIR School](https://www.sfeir.com/formati
 
 ![logo](https://www.sfeir.com/img/school/formations/xxx.png)
 
-[Planning, trainers and other details](https://www.sfeir.com/formation/school/xxx/)
+[Planning, trainers and other details](https://sfeir-open-source.github.io/sfeir-school-nestjs/)
 
 # Slides
 
