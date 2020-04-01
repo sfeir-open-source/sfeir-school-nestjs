@@ -4,7 +4,7 @@
 
 Github de la formation
  
-https://github.com/Sfeir/nestjs-200.git
+https://github.com/sfeir-open-source/sfeir-school-nestjs
 
 
 ##==##
@@ -12,8 +12,8 @@ https://github.com/Sfeir/nestjs-200.git
 
 # Déroulement de la formation
 
-```
-$ git clone https://github.com/Sfeir/nestjs-200.git
+```shell script
+$ git clone https://github.com/sfeir-open-source/sfeir-school-nestjs/
 ```
 
 ##==##
@@ -21,8 +21,8 @@ $ git clone https://github.com/Sfeir/nestjs-200.git
 
 # Déroulement de la formation
 
-```
-$ cd nestjs-200
+```shell script
+$ cd sfeir-school-nestjs/exercises
 
 $ npm i -g @nestjs/cli
 $ npm install
