@@ -11,11 +11,12 @@ Ils permettent de faire de la transformation, ajouter de la logique avant/après
 ![full-width](./assets/images/g5c833a2249_0_311.png)
 
 ##==##
-# Implémentation
+<!-- .slide: class="with-code" -->
 
+# Implémentation
 L’interceptor doit implémenter NestInterceptor et définir la méthode intercept.
 
-```
+```typescript
 import { Injectable, NestInterceptor, ExecutionContext, CallHandler } from '@nestjs/common';
 import { Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
@@ -33,19 +34,25 @@ export class LoggingInterceptor implements NestInterceptor {
   }
 }
 ```
+<!-- .slide: class="big-code" -->
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Sur un controller
 Utilisation de l’annotation @UseInterceptors
 
-```
+```typescript
 @UseInterceptors(LoggingInterceptor)
 export class DemosController {}
 ```
+<!-- .slide: class="big-code" -->
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Au niveau global
-```
+```typescript
 async function bootstrap() {
   const app = await NestFactory.create(ApplicationModule);
   app.useGlobalInterceptors(new LoggingInterceptor());
@@ -53,10 +60,10 @@ async function bootstrap() {
 }
 bootstrap();
 ```
+<!-- .slide: class="big-code" -->
 
 ##==##
 # Différents cas d'utilisation
-
 Voici différents cas d’utilisation pour montrer la variété qu’offre les interceptors.
 
 * Modifier les réponses
@@ -65,21 +72,25 @@ Voici différents cas d’utilisation pour montrer la variété qu’offre les i
 * Gérer un timeout
 
 ##==##
-# Modification de la réponse
+<!-- .slide: class="with-code" -->
 
+# Modification de la réponse
 Modification de la réponse http
 
-```
+```typescript
 intercept(context: ExecutionContext, next: CallHandler): Observable<Response<T>> {
     return next.handle().pipe(map(data => ({ data })));
   }
 ```
+<!-- .slide: class="big-code" -->
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Exception override
 Il est possible de surcharger une exception
 
-```
+```typescript
 intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
     return next
       .handle()
@@ -88,12 +99,15 @@ intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
       );
   }
 ```
+<!-- .slide: class="big-code" -->
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Gestion du cache
 Exemple simple de gestion du cache (non réaliste)
 
-```
+```typescript
 intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
     const isCached = true;
     if (isCached) {
@@ -102,16 +116,20 @@ intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
     return next.handle();
   }
 ```
+<!-- .slide: class="big-code" -->
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Gestion du timeout
 Après 5 secondes, le traitement de la demande sera annulé
 
-```
+```typescript
 intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
     return next.handle().pipe(timeout(5000))
 }
 ```
+<!-- .slide: class="big-code" -->
 
 ##==##
 <!-- .slide: class="exercice sfeir-bg-pink" -->

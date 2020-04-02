@@ -10,8 +10,10 @@
 
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Injectable
-```
+```typescript
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
@@ -21,25 +23,36 @@ export class DemosService {
   }
 }
 ```
+<!-- .slide: class="big-code" -->
+
 
 ##==##
-# Module
+<!-- .slide: class="with-code" -->
 
+# Module
 Enregistrement du service dans le module :
-```
+
+```typescript
 @Module({ 
     imports: [], 
     controllers: [AppController, UsersController], 
     providers: [AppService, UsersService], 
 })
 ```
+<!-- .slide: class="big-code" -->
+
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Injection de dépendance
 Afin de pouvoir utiliser un service dans une autre classe, ce dernier doit être injecté dans le constructor.
-```
+
+```typescript
 constructor(private readonly demosService: DemosService) {}
 ```
+<!-- .slide: class="big-code" -->
+
 
 ##==##
 # Scope

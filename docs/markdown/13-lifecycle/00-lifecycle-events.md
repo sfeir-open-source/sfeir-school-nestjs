@@ -12,8 +12,10 @@ Après la création d’un composant Injectable ou un Controller, il est possibl
 * **OnApplicationShutdown**: à la fermeture de l’application
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Example
-```
+```typescript
 import { Injectable, OnModuleInit } from '@nestjs/common';
 
 @Injectable()
@@ -23,3 +25,4 @@ export class UsersService implements OnModuleInit {
   }
 }
 ```
+<!-- .slide: class="big-code" -->

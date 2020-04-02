@@ -3,48 +3,58 @@
 # TypeORM
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Présentation
 TypeORM est l’ORM (Object Relational Mapper) le plus mature et a été choisi par défaut par NestJS.
 
-```
+```shell
 $ npm install --save @nestjs/typeorm typeorm mysql
 ```
+<!-- .slide: class="big-code" -->
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # MySQL
 Utilisation d’un fichier de configuration ormconfig.json
 
-```
+```json5
 {
-  "type": "mysql",
-  "host": "localhost",
-  "port": 3306,
-  "username": "root",
-  "password": "root",
-  "database": "test",
-  "entities": ["src/**/*.entity{.ts,.js}"],
-  "synchronize": true
+  type: 'mysql',
+  host: 'localhost',
+  port: 3306,
+  username: 'root',
+  password: 'root',
+  database: 'test',
+  entities: ['src/**/*.entity{.ts,.js}'],
+  synchronize: true
 }
 ```
+<!-- .slide: class="big-code" -->
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Import
 
 On peut ensuite importer le module TypeORM
-```
+```typescript
 @Module({
   imports: [TypeOrmModule.forRoot()],
 })
 
 ```
 Il est alors possible d’injecter Connection et EntityManager à travers tout le projet.
+<!-- .slide: class="big-code" -->
 
 ##==##
-# Entity
+<!-- .slide: class="with-code" -->
 
+# Entity
 Dans le pattern Repository, il faut tout d’abord créer une entity.
 
-```
+```typescript
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
@@ -61,12 +71,15 @@ export class School {
   ...
 }
 ```
+<!-- .slide: class="big-code" -->
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Domain Module
 Un sous module définissant le domaine permettant d’organiser le projet. forFeature permet d’injecter le repository directement dans le service.
 
-```
+```typescript
 import ...
 
 @Module({
@@ -76,10 +89,14 @@ import ...
 })
 export class SchoolModule {}
 ```
+<!-- .slide: class="big-code" -->
+
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Service
-```
+```typescript
 import ...
 
 @Injectable()
@@ -93,6 +110,8 @@ export class SchoolService {
     }
 }
 ```
+<!-- .slide: class="big-code" -->
+
 
 ##==##
 <!-- .slide: class="exercice sfeir-bg-pink" -->

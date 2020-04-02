@@ -10,13 +10,13 @@ Les guards sont exécutés après chaque middleware, mais avant tout intercepteu
 
 ![full-width](./assets/images/g5c833a2249_0_277.png)
 
-
 ##==##
-# Authorization guard
+<!-- .slide: class="with-code" -->
 
+# Authorization guard
 Dans l’exemple ci-dessous, il est possible de valider la request de manière simple ou plus complexe avec la méthode validateRequest.
 
-```
+```typescript
 import { Injectable, CanActivate, ExecutionContext } from '@nestjs/common';
 import { Observable } from 'rxjs';
 
@@ -30,20 +30,26 @@ export class AuthGuard implements CanActivate {
   }
 }
 ```
+<!-- .slide: class="big-code" -->
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Sur un controller
 Utilisation de l’annotation @UseGuards
 
-```
+```typescript
 @Controller('demos')
 @UseGuards(AuthGuard)
 export class DemosController {}
 ```
+<!-- .slide: class="big-code" -->
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Au niveau global
-```
+```typescript
 async function bootstrap() {
      const app = await NestFactory.create(ApplicationModule);
      app.useGlobalGuards(new AuthGuard());
@@ -51,6 +57,8 @@ async function bootstrap() {
    }
    bootstrap();
 ```
+<!-- .slide: class="big-code" -->
+
 
 
 

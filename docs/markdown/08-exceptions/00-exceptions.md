@@ -9,31 +9,41 @@ Nest est livré avec une couche d'exceptions intégrée qui est responsable du t
 ![full-width](./assets/images/g5c62ad2ab9_0_374.png)
 
 ##==##
-# Exception Globale
+<!-- .slide: class="with-code" -->
 
+# Exception Globale
 Cette action est effectuée par un filtre d'exception global intégré, qui gère les exceptions de type HttpException (et ses sous-classes). Lorsqu'une exception n'est pas reconnue (il ne s'agit ni d'une exception HttpException ni d'une classe qui hérite de l'exception HttpException), le client reçoit la réponse JSON par défaut suivante:
-```
+
+```typescript
 {
   "statusCode": 500,
   "message": "Internal server error"
 }
 ```
+<!-- .slide: class="big-code" -->
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Exception de base
 La classe HttpException intégrée est exposée à partir du paquet **@nestjs/common**.
-```
+
+```typescript
 @Get()
 async findAll() {
   throw new HttpException('Forbidden', HttpStatus.FORBIDDEN);
 }
 ```
+<!-- .slide: class="big-code" -->
+
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Exception override
 Le constructeur HttpException utilise deux arguments qui déterminent le corps de la réponse JSON et le code d'état de la réponse HTTP.
 
-```
+```typescript
 @Get()
 async findAll() {
   throw new HttpException({
@@ -42,12 +52,16 @@ async findAll() {
   }, 403);
 }
 ```
+<!-- .slide: class="big-code" -->
+
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Custom Exception
 Une exception custom doit hériter de HttpException
 
-```
+```typescript
 export class ForbiddenException extends HttpException {
   constructor() {
     super('Forbidden', HttpStatus.FORBIDDEN);
@@ -57,12 +71,13 @@ export class ForbiddenException extends HttpException {
 
 Utilisation dans le controller
 
-```
+```typescript
 @Get()
 async findAll() {
   throw new ForbiddenException();
 }
 ```
+<!-- .slide: class="big-code" -->
 
 ##==##
 # Nest Exceptions

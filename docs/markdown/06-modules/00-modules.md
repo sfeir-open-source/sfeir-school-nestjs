@@ -3,11 +3,12 @@
 # Modules
 
 ##==##
-# Modules
+<!-- .slide: class="with-code" -->
 
+# Modules
 Les modules sont des singletons par défaut, ainsi le contenu peut être partagé sans effort à un autre module en utilisant la fonction export.
 
-``` 
+```typescript
 import { Module } from '@nestjs/common';
 import { DemosService } from './demos.service';
 
@@ -18,26 +19,32 @@ import { DemosService } from './demos.service';
 })
 export class DemosModule {}
 ```
+<!-- .slide: class="big-code" -->
 
 ##==##
-# Modules
+<!-- .slide: class="with-code" -->
 
+# Modules
 Il est ainsi possible de ré-exporter des modules
 
-```
+```typescript
 @Module({
   imports: [CommonModule],
   exports: [CommonModule],
 })
 export class CoreModule {}
 ```
+<!-- .slide: class="big-code" -->
+
 
 ##==##
+<!-- .slide: class="with-code" -->
+
 # Modules
 Les providers sont par défaut restreint au scope du module. 
 Pour qu’un ensemble de providers soit disponible à travers toute l’application, l’annotation **@Global** est utilisée
 
-```
+```typescript
 import { Module, Global } from '@nestjs/common';
 import { DemosService } from './demos.service';
 
@@ -49,6 +56,8 @@ import { DemosService } from './demos.service';
 })
 export class DemosModule {}
 ```
+<!-- .slide: class="big-code" -->
+
 
 ##==##
 <!-- .slide: class="exercice sfeir-bg-pink" -->
