@@ -2,26 +2,28 @@
 
 # Quickstart
 
-
 ##==##
 
 # NestJS CLI
+
 ![float-left w-800](./assets/images/g5a1be44b75_0_11.png)
 
 https://github.com/nestjs/nest-cli
 
-
 ##==##
+
 <!-- .slide: class="with-code" -->
 
 # Créer un nouveau projet
 
-```shell script
+```shell
 $ nest new project-name
-
 ```
 
+<!-- .element: class="big-code" -->
+
 ##==##
+
 <!-- .slide: class="with-code" -->
 
 # Configuration
@@ -30,16 +32,18 @@ $ nest new project-name
 
 ```json5
 {
- "language": "ts",
- "collection": "@nestjs/schematics",
- "sourceRoot": "src"
+  language: 'ts',
+  collection: '@nestjs/schematics',
+  sourceRoot: 'src'
 }
 ```
 
 ##==##
+
 <!-- .slide: class="with-code" -->
 
 # Postman / Insomnia
+
 <div class="flex-row"> 
 <div class="w-500">
  ![h-200 center](./assets/images/g5c7f712f61_0_0.png)
