@@ -179,7 +179,8 @@ await app.listen(3000);
 <!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION
-  <div class="full-center">git checkout -f step-04-solution</div>
+```git checkout -f step-04-solution```
+<!-- .element: class="full-center" -->
 
 
 

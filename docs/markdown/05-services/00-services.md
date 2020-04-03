@@ -84,5 +84,5 @@ Il est possible d’avoir des scopes au niveau des requêtes avec une durée de 
 <!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION
-  <div class="full-center">git checkout -f step-02-solution</div>
-
+```git checkout -f step-02-solution```
+<!-- .element: class="full-center" -->

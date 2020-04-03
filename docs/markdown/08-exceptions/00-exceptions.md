@@ -80,7 +80,10 @@ async findAll() {
 <!-- .slide: class="big-code" -->
 
 ##==##
+<!-- .slide: class="two-column-layout"-->
 # Nest Exceptions
+
+##--##
 * BadRequestException **(400)**
 * UnauthorizedException **(401)**
 * NotFoundException **(404)**
@@ -89,6 +92,8 @@ async findAll() {
 * RequestTimeoutException **(408)**
 * ConflictException **(409)**
 * GoneException **(410)**
+
+##--##
 * PayloadTooLargeException **(413)**
 * UnsupportedMediaTypeException **(415)**
 * UnprocessableEntityException **(422)**
@@ -115,7 +120,8 @@ async findAll() {
 <!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION
-  <div class="full-center">git checkout -f step-05-solution</div>
+```git checkout -f step-05-solution```
+<!-- .element: class="full-center" -->
 
 
 

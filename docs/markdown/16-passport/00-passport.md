@@ -59,4 +59,3 @@ export class HttpStrategy extends PassportStrategy(Strategy) {
   }
 }
 ```
-<!-- .slide: class="big-code" -->

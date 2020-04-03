@@ -34,7 +34,6 @@ export class LoggingInterceptor implements NestInterceptor {
   }
 }
 ```
-<!-- .slide: class="big-code" -->
 
 ##==##
 <!-- .slide: class="with-code" -->
@@ -154,7 +153,8 @@ intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
 <!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION
-  <div class="full-center">git checkout -f step-09-solution</div>
+```git checkout -f step-09-solution```
+<!-- .element: class="full-center" -->
 
 
 

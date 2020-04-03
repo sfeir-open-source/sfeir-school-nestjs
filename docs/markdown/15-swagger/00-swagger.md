@@ -39,8 +39,6 @@ async function bootstrap() {
 }
 bootstrap();
 ```
-<!-- .slide: class="big-code" -->
-
 
 ##==##
 <!-- .slide: class="with-code" -->
@@ -94,4 +92,5 @@ https://docs.nestjs.com/recipes/swagger
 <!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION
-  <div class="full-center">git checkout -f step-12-solution</div>
+```git checkout -f step-12-solution```
+<!-- .element: class="full-center" -->

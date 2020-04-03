@@ -79,5 +79,5 @@ export class DemosModule {}
 <!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION
-  <div class="full-center">git checkout -f step-03-solution</div>
-
+```git checkout -f step-03-solution```
+<!-- .element: class="full-center" -->

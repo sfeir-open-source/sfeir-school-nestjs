@@ -9,7 +9,7 @@ Les pipes servent à :
 * Transformer les données
 * Valider les données et lever une exception si nécessaire
 
-![full-width](./assets/images/g5c62ad2ab9_0_449.png)
+![w-1024 center](./assets/images/g5c62ad2ab9_0_449.png)
 
 ##==##
 # Built-in pipes
@@ -145,8 +145,8 @@ https://docs.nestjs.com/pipes#the-built-in-validationpipe
 <!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION
-  <div class="full-center">git checkout -f step-07-solution</div>
-
+```git checkout -f step-07-solution```
+<!-- .element: class="full-center" -->
 
 ##==##
 <!-- .slide: class="exercice sfeir-bg-pink" -->
@@ -164,4 +164,5 @@ https://docs.nestjs.com/pipes#the-built-in-validationpipe
 <!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION
-  <div class="full-center">git checkout -f step-08-solution</div>
+```git checkout -f step-08-solution```
+<!-- .element: class="full-center" -->
