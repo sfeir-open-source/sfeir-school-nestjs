@@ -1,4 +1,4 @@
-<!-- .slide: class="transition-orange sfeir-bg-white-4" -->
+<!-- .slide: class="transition " -->
 
 # Lifecycle Events
 

@@ -1,4 +1,4 @@
-<!-- .slide: class="transition-orange sfeir-bg-white-4" -->
+<!-- .slide: class="transition " -->
 
 # Custom decorators
 
@@ -71,7 +71,7 @@ async findOne(@User('firstName') firstName: string) {
 ### git checkout -f step-10
 
 ##==##
-<!-- .slide: class="sfeir-bg-white-4" -->
+<!-- .slide: class="" -->
 
 # SOLUTION
 ```git checkout -f step-10-solution```

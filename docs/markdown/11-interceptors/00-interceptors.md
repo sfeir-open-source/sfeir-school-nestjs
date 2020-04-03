@@ -1,4 +1,4 @@
-<!-- .slide: class="transition-orange sfeir-bg-white-4" -->
+<!-- .slide: class="transition " -->
 
 # Interceptors
 
@@ -150,7 +150,7 @@ intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
 ### git checkout -f step-09
 
 ##==##
-<!-- .slide: class="sfeir-bg-white-4" -->
+<!-- .slide: class="" -->
 
 # SOLUTION
 ```git checkout -f step-09-solution```

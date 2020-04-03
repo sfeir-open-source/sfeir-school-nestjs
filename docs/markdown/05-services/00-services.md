@@ -1,4 +1,4 @@
-<!-- .slide: class="transition-orange sfeir-bg-white-4" -->
+<!-- .slide: class="transition" -->
 
 # Services
 
@@ -81,7 +81,7 @@ Il est possible d’avoir des scopes au niveau des requêtes avec une durée de 
 ### git checkout -f step-02
 
 ##==##
-<!-- .slide: class="sfeir-bg-white-4" -->
+<!-- .slide: class="4" -->
 
 # SOLUTION
 ```git checkout -f step-02-solution```

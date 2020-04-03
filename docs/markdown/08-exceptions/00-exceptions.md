@@ -1,4 +1,4 @@
-<!-- .slide: class="transition-orange sfeir-bg-white-4" -->
+<!-- .slide: class="transition " -->
 
 # Exceptions
 
@@ -117,7 +117,7 @@ async findAll() {
 ### git checkout -f step-05
 
 ##==##
-<!-- .slide: class="sfeir-bg-white-4" -->
+<!-- .slide: class="" -->
 
 # SOLUTION
 ```git checkout -f step-05-solution```

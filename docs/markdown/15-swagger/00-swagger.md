@@ -1,4 +1,4 @@
-<!-- .slide: class="transition-orange sfeir-bg-white-4" -->
+<!-- .slide: class="transition " -->
 
 # Swagger
 
@@ -89,7 +89,7 @@ https://docs.nestjs.com/recipes/swagger
 ### git checkout -f step-12
 
 ##==##
-<!-- .slide: class="sfeir-bg-white-4" -->
+<!-- .slide: class="" -->
 
 # SOLUTION
 ```git checkout -f step-12-solution```

@@ -1,4 +1,4 @@
-<!-- .slide: class="transition-orange sfeir-bg-white-4" -->
+<!-- .slide: class="transition " -->
 
 # Pipes
 
@@ -142,7 +142,7 @@ https://docs.nestjs.com/pipes#the-built-in-validationpipe
 ### git checkout -f step-07
 
 ##==##
-<!-- .slide: class="sfeir-bg-white-4" -->
+<!-- .slide: class="" -->
 
 # SOLUTION
 ```git checkout -f step-07-solution```
@@ -161,7 +161,7 @@ https://docs.nestjs.com/pipes#the-built-in-validationpipe
 ### git checkout -f step-08
 
 ##==##
-<!-- .slide: class="sfeir-bg-white-4" -->
+<!-- .slide: class="" -->
 
 # SOLUTION
 ```git checkout -f step-08-solution```

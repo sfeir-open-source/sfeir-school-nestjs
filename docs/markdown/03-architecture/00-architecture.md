@@ -1,4 +1,4 @@
-<!-- .slide: class="transition-white sfeir-bg-white-4" -->
+<!-- .slide: class="transition" -->
 
 # Architecture globale
 
