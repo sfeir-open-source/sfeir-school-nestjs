@@ -142,6 +142,7 @@ https://docs.nestjs.com/pipes#the-built-in-validationpipe
 ### git checkout -f step-07
 
 ##==##
+<!-- .slide: class="with-code" -->
 <!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION
@@ -161,6 +162,7 @@ https://docs.nestjs.com/pipes#the-built-in-validationpipe
 ### git checkout -f step-08
 
 ##==##
+<!-- .slide: class="with-code" -->
 <!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION

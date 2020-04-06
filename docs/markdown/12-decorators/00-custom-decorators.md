@@ -60,10 +60,10 @@ async findOne(@User('firstName') firstName: string) {
 
 # Exercice 10: Créer un decorator
 ## Exercice
-
 <br>
+
 1. Créer un decorator permettant de récupérer l’email dans la “query” de la requête pour trouver un user par email
-   ```
+   ```shell
     $ nest g decorator users/user
   ```
 <br>
@@ -71,6 +71,7 @@ async findOne(@User('firstName') firstName: string) {
 ### git checkout -f step-10
 
 ##==##
+<!-- .slide: class="with-code" -->
 <!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION

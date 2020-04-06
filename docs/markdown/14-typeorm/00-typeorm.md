@@ -142,6 +142,7 @@ export class SchoolService {
 <br>
 
 ##==##
+<!-- .slide: class="with-code" -->
 <!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION

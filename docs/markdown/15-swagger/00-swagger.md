@@ -89,6 +89,7 @@ https://docs.nestjs.com/recipes/swagger
 ### git checkout -f step-12
 
 ##==##
+<!-- .slide: class="with-code" -->
 <!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION

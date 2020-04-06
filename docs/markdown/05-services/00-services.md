@@ -68,10 +68,10 @@ Il est possible d’avoir des scopes au niveau des requêtes avec une durée de 
 
 # Exercice 2: Création d’un service
 ## Exercice
-
 <br>
+
 1. Utiliser le CLI pour créer un nouveau service **UsersService**
-   ```
+   ```shell
     $ nest g service users
   ```
 2. Créer les méthodes **findByEmail**, **create**, **update** et **delete**
@@ -81,6 +81,7 @@ Il est possible d’avoir des scopes au niveau des requêtes avec une durée de 
 ### git checkout -f step-02
 
 ##==##
+<!-- .slide: class="with-code" -->
 <!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION
