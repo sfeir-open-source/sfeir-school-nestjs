@@ -6,7 +6,7 @@
 # Exceptions
 Nest est livré avec une couche d'exceptions intégrée qui est responsable du traitement de toutes les exceptions non gérées dans une application. Lorsqu'une exception n'est pas gérée par votre code d'application, elle est capturée par cette couche, qui envoie ensuite automatiquement une réponse appropriée.
 
-![full-width](./assets/images/g5c62ad2ab9_0_374.png)
+![w-1000 center](./assets/images/g5c62ad2ab9_0_374.png)
 
 ##==##
 <!-- .slide: class="with-code" -->

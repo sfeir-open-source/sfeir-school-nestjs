@@ -8,7 +8,7 @@
 Les interceptors sont inspirés de la Programmation Orientée Aspect (AOP).
 Ils permettent de faire de la transformation, ajouter de la logique avant/après une méthode ...
 
-![full-width](./assets/images/g5c833a2249_0_311.png)
+![w-2014 center](./assets/images/g5c833a2249_0_311.png)
 
 ##==##
 <!-- .slide: class="with-code" -->

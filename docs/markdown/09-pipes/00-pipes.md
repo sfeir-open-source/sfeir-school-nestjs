@@ -9,7 +9,7 @@ Les pipes servent à :
 * Transformer les données
 * Valider les données et lever une exception si nécessaire
 
-![w-1024 center](./assets/images/g5c62ad2ab9_0_449.png)
+![w-1000 center](./assets/images/g5c62ad2ab9_0_449.png)
 
 ##==##
 # Built-in pipes
