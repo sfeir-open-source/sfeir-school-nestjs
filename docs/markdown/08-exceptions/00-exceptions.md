@@ -117,7 +117,6 @@ async findAll() {
 ### git checkout -f step-05
 
 ##==##
-<!-- .slide: class="" -->
 
 # SOLUTION
 ```git checkout -f step-05-solution```

@@ -176,7 +176,6 @@ await app.listen(3000);
 ### git checkout -f step-04
 
 ##==##
-<!-- .slide: class="" -->
 
 # SOLUTION
 ```git checkout -f step-04-solution```

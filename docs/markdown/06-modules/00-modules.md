@@ -76,7 +76,6 @@ export class DemosModule {}
 ### git checkout -f step-03
 
 ##==##
-<!-- .slide: class="" -->
 
 # SOLUTION
 ```git checkout -f step-03-solution```

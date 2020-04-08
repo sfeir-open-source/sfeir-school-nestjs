@@ -114,7 +114,6 @@ const status = exception instanceof HttpException
 ### git checkout -f step-06
 
 ##==##
-<!-- .slide: class="" -->
 
 # SOLUTION
 ```git checkout -f step-06-solution```

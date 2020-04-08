@@ -71,7 +71,6 @@ async findOne(@User('firstName') firstName: string) {
 ### git checkout -f step-10
 
 ##==##
-<!-- .slide: class="" -->
 
 # SOLUTION
 ```git checkout -f step-10-solution```

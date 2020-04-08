@@ -142,7 +142,6 @@ https://docs.nestjs.com/pipes#the-built-in-validationpipe
 ### git checkout -f step-07
 
 ##==##
-<!-- .slide: class="" -->
 
 # SOLUTION
 ```git checkout -f step-07-solution```
@@ -161,7 +160,6 @@ https://docs.nestjs.com/pipes#the-built-in-validationpipe
 ### git checkout -f step-08
 
 ##==##
-<!-- .slide: class="" -->
 
 # SOLUTION
 ```git checkout -f step-08-solution```
