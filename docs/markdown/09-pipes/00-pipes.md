@@ -1,4 +1,4 @@
-<!-- .slide: class="transition-orange sfeir-bg-white-4" -->
+<!-- .slide: class="transition " -->
 
 # Pipes
 
@@ -9,7 +9,7 @@ Les pipes servent à :
 * Transformer les données
 * Valider les données et lever une exception si nécessaire
 
-![w-1024 center](./assets/images/g5c62ad2ab9_0_449.png)
+![w-1000 center](./assets/images/g5c62ad2ab9_0_449.png)
 
 ##==##
 # Built-in pipes
@@ -143,7 +143,6 @@ https://docs.nestjs.com/pipes#the-built-in-validationpipe
 
 ##==##
 <!-- .slide: class="with-code" -->
-<!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION
 ```git checkout -f step-07-solution```
@@ -163,7 +162,6 @@ https://docs.nestjs.com/pipes#the-built-in-validationpipe
 
 ##==##
 <!-- .slide: class="with-code" -->
-<!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION
 ```git checkout -f step-08-solution```

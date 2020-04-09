@@ -1,4 +1,4 @@
-<!-- .slide: class="first-slide first-red" sfeir-level="2" sfeir-techno="nestjs" -->
+<!-- .slide: class="first-slide " sfeir-level="2" sfeir-techno="nestjs" -->
 
 # **Bienvenue à la formation**
 

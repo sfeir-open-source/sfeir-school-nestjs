@@ -1,4 +1,4 @@
-<!-- .slide: class="transition-orange sfeir-bg-white-4" -->
+<!-- .slide: class="transition" -->
 
 # Quickstart
 
@@ -46,13 +46,13 @@ $ nest new project-name
 # Postman / Insomnia
 
 <div class="flex-row"> 
-<div class="w-500">
- ![h-200 center](./assets/images/g5c7f712f61_0_0.png)
+<div class="w-500 flex-row">
+ <img class="h-200" src="./assets/images/g5c7f712f61_0_0.png">
  https://www.getpostman.com/ 
 </div>
 
-<div class="w-500">
- ![h-250 center](./assets/images/g5c7f712f61_0_5.png)
+<div class="w-500 flex-row">
+ <img class="h-200" src="./assets/images/g5c7f712f61_0_5.png">
  https://insomnia.rest/
 </div>
 </div>

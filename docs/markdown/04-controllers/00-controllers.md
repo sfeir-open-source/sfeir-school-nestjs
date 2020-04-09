@@ -1,4 +1,4 @@
-<!-- .slide: class="transition-orange sfeir-bg-white-4" -->
+<!-- .slide: class="transition" -->
 
 # Controllers
 
@@ -163,7 +163,6 @@ app.setGlobalPrefix('api');
 ### git checkout -f step-01
 
 ##==##
-<!-- .slide: class="sfeir-bg-white-4" -->
 <!-- .slide: class="with-code" -->
 
 # SOLUTION

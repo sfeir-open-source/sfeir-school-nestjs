@@ -1,4 +1,4 @@
-<!-- .slide: class="transition-orange sfeir-bg-white-4" -->
+<!-- .slide: class="transition " -->
 
 # Middleware
 
@@ -177,7 +177,6 @@ await app.listen(3000);
 
 ##==##
 <!-- .slide: class="with-code" -->
-<!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION
 ```git checkout -f step-04-solution```

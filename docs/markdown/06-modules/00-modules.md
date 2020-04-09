@@ -1,4 +1,4 @@
-<!-- .slide: class="transition-orange sfeir-bg-white-4" -->
+<!-- .slide: class="transition " -->
 
 # Modules
 
@@ -77,7 +77,6 @@ export class DemosModule {}
 
 ##==##
 <!-- .slide: class="with-code" -->
-<!-- .slide: class="sfeir-bg-white-4" -->
 
 # SOLUTION
 ```git checkout -f step-03-solution```
