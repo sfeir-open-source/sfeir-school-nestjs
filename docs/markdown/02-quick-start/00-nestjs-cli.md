@@ -37,6 +37,7 @@ $ nest new project-name
   sourceRoot: 'src'
 }
 ```
+<!-- .slide: class="big-code" -->
 
 ##==##
 

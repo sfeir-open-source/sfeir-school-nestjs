@@ -34,6 +34,7 @@ $ npm run start:dev
 
 server ->  http://localhost:3000/
 ```
+<!-- .slide: class="big-code" -->
 
 ##==##
 
