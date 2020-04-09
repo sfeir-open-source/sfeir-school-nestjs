@@ -135,14 +135,14 @@ intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
 
 # Exercice 09: Créer un interceptor
 ## Exercice
-
 <br>
+
 1. Créer un interceptor permettant de logger le temps d’une action et l’attacher au niveau global
-    ```
+    ```shell
     $ nest g interceptor shared/logging
     ```
 2. Créer un interceptor permettant de surcharger les exceptions en ServiceUnavailableException et l’attacher à UsersController
-    ```
+    ```shell
     $ nest g interceptor shared/override
     ```
 <br>
@@ -150,6 +150,7 @@ intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
 ### git checkout -f step-09
 
 ##==##
+<!-- .slide: class="with-code" -->
 
 # SOLUTION
 ```git checkout -f step-09-solution```

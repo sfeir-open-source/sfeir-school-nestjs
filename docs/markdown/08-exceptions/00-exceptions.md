@@ -108,8 +108,8 @@ async findAll() {
 
 # Exercice 05: Création d'une exception
 ## Exercice
-
 <br>
+
 1. Créer une nouvelle route **/error** dans **UsersController**
 2. Redéfinir l’exception NotImplementedCustom qui retournera le code **501** avec un message personnalisé
 <br>
@@ -117,6 +117,7 @@ async findAll() {
 ### git checkout -f step-05
 
 ##==##
+<!-- .slide: class="with-code" -->
 
 # SOLUTION
 ```git checkout -f step-05-solution```

@@ -31,7 +31,6 @@ export class HttpExceptionFilter implements ExceptionFilter {
   }
 }
 ```
-<!-- .slide: class="big-code" -->
 
 ##==##
 # Binding exception filter
@@ -101,10 +100,10 @@ const status = exception instanceof HttpException
 
 # Exercice 06: Création d'un exception filter
 ## Exercice
-
 <br>
+
 1. Utiliser le CLI pour créer un nouveau service **UsersService**
-   ```
+   ```shell
     $ nest g service users
   ```
 2. Créer les méthodes **findByEmail**, **create**, **update** et **delete**
@@ -114,6 +113,7 @@ const status = exception instanceof HttpException
 ### git checkout -f step-06
 
 ##==##
+<!-- .slide: class="with-code" -->
 
 # SOLUTION
 ```git checkout -f step-06-solution```

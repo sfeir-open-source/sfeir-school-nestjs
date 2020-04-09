@@ -64,10 +64,10 @@ export class DemosModule {}
 
 # Exercice 3: Création d'un module
 ## Exercice
-
 <br>
+
 1. Créer un module user et y déclarer le controller et le service
-   ```
+   ```shell
     $ nest g module users
   ```
 2. Référencer le nouveau module dans le module principal
@@ -76,6 +76,7 @@ export class DemosModule {}
 ### git checkout -f step-03
 
 ##==##
+<!-- .slide: class="with-code" -->
 
 # SOLUTION
 ```git checkout -f step-03-solution```

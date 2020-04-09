@@ -89,6 +89,7 @@ https://docs.nestjs.com/recipes/swagger
 ### git checkout -f step-12
 
 ##==##
+<!-- .slide: class="with-code" -->
 
 # SOLUTION
 ```git checkout -f step-12-solution```

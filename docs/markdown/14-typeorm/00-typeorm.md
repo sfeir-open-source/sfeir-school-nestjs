@@ -142,6 +142,7 @@ export class SchoolService {
 <br>
 
 ##==##
+<!-- .slide: class="with-code" -->
 
 # SOLUTION
 ```git checkout -f step-11-solution```

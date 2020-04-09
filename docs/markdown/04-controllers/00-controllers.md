@@ -78,7 +78,6 @@ async create(@Body() createDemoDto: CreateDemoDto) {
     return `This action returns all demos (limit: ${query.limit} demos)`;
   }
 ```
-
 ```typescript
   @Get(':id')
   findOne(@Param('id') id: string) {
@@ -151,10 +150,10 @@ app.setGlobalPrefix('api');
 
 # Exercice 1: Création d’un controller
 ## Exercice
-
 <br>
+
 1. Utiliser le CLI pour créer un nouveau controller **UsersController**
-   ```
+   ```shell
     $ nest g controller users
   ```
 2. Créer les DTO **CreateUserDto** et **UpdateUserDto**
@@ -164,6 +163,7 @@ app.setGlobalPrefix('api');
 ### git checkout -f step-01
 
 ##==##
+<!-- .slide: class="with-code" -->
 
 # SOLUTION
 ```git checkout -f step-01-solution```
