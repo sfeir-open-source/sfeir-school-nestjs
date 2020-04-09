@@ -81,7 +81,6 @@ Il est possible d’avoir des scopes au niveau des requêtes avec une durée de 
 ### git checkout -f step-02
 
 ##==##
-<!-- .slide: class="4" -->
 
 # SOLUTION
 ```git checkout -f step-02-solution```

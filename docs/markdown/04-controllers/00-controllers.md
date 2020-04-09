@@ -164,7 +164,6 @@ app.setGlobalPrefix('api');
 ### git checkout -f step-01
 
 ##==##
-<!-- .slide: class="4" -->
 
 # SOLUTION
 ```git checkout -f step-01-solution```
