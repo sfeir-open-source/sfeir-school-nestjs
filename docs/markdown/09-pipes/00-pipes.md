@@ -79,17 +79,17 @@ export class CreateUserDto {
 # Message d'erreur
 Si problème de validation alors une erreur 400 Bad Request sera renvoyée.
 
-```json5
+```json
 {
-  statusCode: 400,
-  error: 'Bad Request',
-  message: [
+  "statusCode": 400,
+  "error": "Bad Request",
+  "message": [
     {
-      target: {},
-      property: 'email',
-      children: [],
-      constraints: {
-        isEmail: 'email must be an email'
+      "target": {},
+      "property": "email",
+      "children": [],
+      "constraints": {
+        "isEmail": "email must be an email"
       }
     }
   ]

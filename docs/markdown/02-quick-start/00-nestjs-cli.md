@@ -30,11 +30,11 @@ $ nest new project-name
 
 **nest-cli.json**
 
-```json5
+```json
 {
-  language: 'ts',
-  collection: '@nestjs/schematics',
-  sourceRoot: 'src'
+  "language": "ts",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src"
 }
 ```
 <!-- .slide: class="big-code" -->

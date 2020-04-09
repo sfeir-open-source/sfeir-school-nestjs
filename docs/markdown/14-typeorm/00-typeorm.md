@@ -19,16 +19,16 @@ $ npm install --save @nestjs/typeorm typeorm mysql
 # MySQL
 Utilisation d’un fichier de configuration ormconfig.json
 
-```json5
+```json
 {
-  type: 'mysql',
-  host: 'localhost',
-  port: 3306,
-  username: 'root',
-  password: 'root',
-  database: 'test',
-  entities: ['src/**/*.entity{.ts,.js}'],
-  synchronize: true
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "root",
+  "database": "test",
+  "entities": ["src/**/*.entity{.ts,.js}"],
+  "synchronize": true
 }
 ```
 <!-- .slide: class="big-code" -->
