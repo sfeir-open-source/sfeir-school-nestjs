@@ -4,15 +4,16 @@ import { logger } from './shared/logger.middleware';
 import { ValidationPipe } from "@nestjs/common";
 import { LoggingInterceptor } from "./shared/logging.interceptor";
 import { DocumentBuilder, SwaggerModule } from "@nestjs/swagger";
-import { HttpExceptionFilter } from "./shared/http-exception.filter";
+import * as passport from 'passport';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.setGlobalPrefix('api');
   app.use(logger);
-  app.useGlobalFilters(new HttpExceptionFilter());
   app.useGlobalPipes(new ValidationPipe());
   app.useGlobalInterceptors(new LoggingInterceptor());
+  app.use(passport.initialize());
+  app.use(passport.session());
 
   const options = new DocumentBuilder()
     .setTitle('Users example')

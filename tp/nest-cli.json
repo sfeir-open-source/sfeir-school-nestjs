@@ -250,6 +250,24 @@
       "compilerOptions": {
         "tsConfigPath": "apps/cache-solution/tsconfig.app.json"
       }
+    },
+    "passport": {
+      "type": "application",
+      "root": "apps/passport",
+      "entryFile": "main",
+      "sourceRoot": "apps/passport/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/passport/tsconfig.app.json"
+      }
+    },
+    "passport-solution": {
+      "type": "application",
+      "root": "apps/passport-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/passport-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/passport-solution/tsconfig.app.json"
+      }
     }
   }
 }

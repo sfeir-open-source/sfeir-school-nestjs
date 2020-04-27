@@ -96,9 +96,9 @@ function formation() {
     ...lifecycleSlides(),
     ...typeormSlides(),
     ...swaggerSlides(),
-    ...passportSlides(),
     ...securiteSlides(),
     ...exceptionsFiltersSlides(),
+    ...passportSlides(),
     ...ressourcesSlides()
   ].map(slidePath => {
     return { path: slidePath };
