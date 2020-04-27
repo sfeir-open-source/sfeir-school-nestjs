@@ -7,7 +7,7 @@ function introSlides() {
 }
 
 function quickStartSlides() {
-  return ['02-quick-start/00-nestjs-cli.md'];
+  return ['02-quick-start/00-nestjs-cli.md', '02-quick-start/01-tools.md'];
 }
 
 function architectureSlides() {
@@ -31,7 +31,7 @@ function middlewaresSlides() {
 }
 
 function exceptionsSlides() {
-  return ['08-exceptions/00-exceptions.md', '08-exceptions/01-exceptions-filters.md'];
+  return ['08-exceptions/00-exceptions.md'];
 }
 
 function pipesSlides() {
@@ -70,8 +70,12 @@ function securiteSlides() {
   return ['17-securite/00-securite.md'];
 }
 
+function exceptionsFiltersSlides() {
+  return ['18-exceptions-filters/00-exceptions-filters.md'];
+}
+
 function ressourcesSlides() {
-  return ['18-ressources/00-ressources.md'];
+  return ['19-ressources/00-ressources.md'];
 }
 
 function formation() {
@@ -94,6 +98,7 @@ function formation() {
     ...swaggerSlides(),
     ...passportSlides(),
     ...securiteSlides(),
+    ...exceptionsFiltersSlides(),
     ...ressourcesSlides()
   ].map(slidePath => {
     return { path: slidePath };

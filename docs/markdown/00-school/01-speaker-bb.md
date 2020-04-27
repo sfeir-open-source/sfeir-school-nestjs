@@ -4,7 +4,7 @@
 
 ![speaker](./assets/images/speakers/BB.png)
 
-<h2>Bruno <span>Bellenoue</span></h2>
+<h2>Bruno <span>&nbsp;Bellenoue</span></h2>
 
 ### Developer & Team Leader
 <!-- .element: class="icon-rule icon-first" -->

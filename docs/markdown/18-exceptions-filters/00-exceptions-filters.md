@@ -98,8 +98,11 @@ const status = exception instanceof HttpException
 ##==##
 <!-- .slide: class="exercice sfeir-bg-pink" -->
 
-# Exercice 06: Création d'un exception filter
+# Exercice 12: Création d'un exception filter
 ## Exercice
+<br>
+
+### TP/exception-filter
 <br>
 
 1. Utiliser le CLI pour créer un nouveau service **UsersService**
@@ -110,12 +113,11 @@ const status = exception instanceof HttpException
 3. Vérifier le bon fonctionnement en testant les controllers avec **console.log(‘...’)**
 <br>
 
-### git checkout -f step-06
-
 ##==##
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="exercice sfeir-bg-pink" -->
 
 # SOLUTION
-```git checkout -f step-06-solution```
-<!-- .element: class="full-center" -->
 
+### TP/exception-filter-solution
+
+<!-- .element: class="full-center" -->

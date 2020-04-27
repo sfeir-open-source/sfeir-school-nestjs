@@ -110,23 +110,18 @@ async findAll() {
 ## Exercice
 <br>
 
+### TP/exception
+<br>
+
 1. Créer une nouvelle route **/error** dans **UsersController**
 2. Redéfinir l’exception NotImplementedCustom qui retournera le code **501** avec un message personnalisé
 <br>
 
-### git checkout -f step-05
-
 ##==##
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="exercice sfeir-bg-pink" -->
 
 # SOLUTION
-```git checkout -f step-05-solution```
+
+### TP/exception-solution
+
 <!-- .element: class="full-center" -->
-
-
-
-
-
-
-
-

@@ -1,3 +1,11 @@
+<!-- .slide: class="first-slide " sfeir-level="2" sfeir-techno="nestjs" -->
+
+# **Welcome to Sfeir School**
+
+## **NestJS 200**
+
+##==##
+
 <!-- .slide: class="transition " -->
 
 # TypeORM
@@ -116,34 +124,36 @@ export class SchoolService {
 ##==##
 <!-- .slide: class="exercice sfeir-bg-pink" -->
 
-# Exercice 11: Utilisation de TypeORM (1/2)
+# Exercice 10: Utilisation de TypeORM (1/2)
 ## Exercice
-
 <br>
+
+### TP/typeorm
+<br>
+
 1. Installer MySql ou une image via docker
    ```
     $ docker run --name=mysqlschool -p 3306:3306 -d -e MYSQL_ROOT_PASSWORD=school mysql:5.7
   ```
 2. Créer une base de donnée mysql avec les scripts présents dans le répertoire sql
 3. Configurer typeORM pour la base de données ‘nestschool’
-<br>
-
-### git checkout -f step-11
 
 ##==##
 <!-- .slide: class="exercice sfeir-bg-pink" -->
 
-# Exercice 11: Utilisation de TypeORM (2/2)
+# Exercice 10: Utilisation de TypeORM (2/2)
 ## Exercice
-
 <br>
+
 1. Créer l’entity user “user.entity.ts” avec tous les champs obligatoire sauf l’âge
-2. Modifier la méthode getByEmail pour retourner le user en base de donnée
+2. Modifier les méthodes du service user pour utiliser la base de donnée
 <br>
 
 ##==##
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="exercice sfeir-bg-pink" -->
 
 # SOLUTION
-```git checkout -f step-11-solution```
+
+### TP/typeorm-solution
+
 <!-- .element: class="full-center" -->

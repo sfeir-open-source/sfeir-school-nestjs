@@ -167,21 +167,20 @@ await app.listen(3000);
 ## Exercice
 <br>
 
-1. Créer un middleware de logs permettant d’afficher le body de la requête sur les routes du **UsersControllers** sauf le **Post**
+### TP/middleware
+<br>
+
+1. Créer un middleware de logs permettant d’afficher le body de la requête sur les routes du **UsersControllers** sauf **Get** et **Delete**
    ```shell
     $ nest g middleware users/logger
   ```
 <br>
 
-### git checkout -f step-04
-
 ##==##
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="exercice sfeir-bg-pink" -->
 
 # SOLUTION
-```git checkout -f step-04-solution```
+
+### TP/middleware-solution
+
 <!-- .element: class="full-center" -->
-
-
-
-

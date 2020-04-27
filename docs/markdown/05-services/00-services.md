@@ -70,19 +70,21 @@ Il est possible d’avoir des scopes au niveau des requêtes avec une durée de 
 ## Exercice
 <br>
 
+### TP/service
+<br>
+
 1. Utiliser le CLI pour créer un nouveau service **UsersService**
    ```shell
     $ nest g service users
   ```
 2. Créer les méthodes **findByEmail**, **create**, **update** et **delete**
 3. Vérifier le bon fonctionnement en testant les controllers avec **console.log(‘...’)**
-<br>
-
-### git checkout -f step-02
 
 ##==##
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="exercice sfeir-bg-pink" -->
 
 # SOLUTION
-```git checkout -f step-02-solution```
+
+### TP/service-solution
+
 <!-- .element: class="full-center" -->

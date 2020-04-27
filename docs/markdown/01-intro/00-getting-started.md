@@ -1,21 +1,17 @@
-<!-- .slide: class="center with-code" -->
-
-# Déroulement de la formation
-
-Github de la formation
-
-https://github.com/sfeir-open-source/sfeir-school-nestjs
-
-##==##
-
 <!-- .slide: class="with-code" -->
 
-# Déroulement de la formation
+# Bootstrapping de l'application
 
 ```shell
+$ npm install -g @nestjs/cli
 $ git clone https://github.com/sfeir-open-source/sfeir-school-nestjs/
+$ cd TP && npm i
 ```
+<!-- .element: class="big-code" -->
 
+```shell
+$ npm run start:dev "nom de l'app"
+```
 <!-- .element: class="big-code" -->
 
 ##==##
@@ -24,26 +20,8 @@ $ git clone https://github.com/sfeir-open-source/sfeir-school-nestjs/
 
 # Déroulement de la formation
 
-```shell
-$ cd sfeir-school-nestjs/exercises
+Chaque concept clé de NestJS est accompagné d'un exercice.
 
-$ npm i -g @nestjs/cli
-$ npm install
-
-$ npm run start:dev
-
-server ->  http://localhost:3000/
-```
-<!-- .slide: class="big-code" -->
-
-##==##
-
-<!-- .slide: class="with-code" -->
-
-# Déroulement de la formation
-
-Un concept clé de NestJS
-
-- Un TP
-- Un projet d’exercice : stepsXX
-- Une projet de solution : stepsXX-solution
+Déroulement de l'exercice
+- une page d’exercice : apps/XX
+- une page de solution : apps/XX-solution

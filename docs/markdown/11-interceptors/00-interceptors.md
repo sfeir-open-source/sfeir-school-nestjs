@@ -133,8 +133,11 @@ intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
 ##==##
 <!-- .slide: class="exercice sfeir-bg-pink" -->
 
-# Exercice 09: Créer un interceptor
+# Exercice 08: Créer un interceptor
 ## Exercice
+<br>
+
+### TP/interceptor
 <br>
 
 1. Créer un interceptor permettant de logger le temps d’une action et l’attacher au niveau global
@@ -145,21 +148,12 @@ intercept(context: ExecutionContext, next: CallHandler): Observable<any> {
     ```shell
     $ nest g interceptor shared/override
     ```
-<br>
-
-### git checkout -f step-09
 
 ##==##
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="exercice sfeir-bg-pink" -->
 
 # SOLUTION
-```git checkout -f step-09-solution```
+
+### TP/interceptor-solution
+
 <!-- .element: class="full-center" -->
-
-
-
-
-
-
-
-

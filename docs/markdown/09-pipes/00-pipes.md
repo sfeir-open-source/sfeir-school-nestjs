@@ -132,37 +132,43 @@ https://docs.nestjs.com/pipes#the-built-in-validationpipe
 ##==##
 <!-- .slide: class="exercice sfeir-bg-pink" -->
 
-# Exercice 07: Utilisation de ParseIntPipe
+# Exercice 06: Utilisation de ParseIntPipe
 ## Exercice
 
+### TP/pipe
 <br>
-1. Utiliser le pipe **ParseIntPipe** sur la méthode **findOne** de **UsersControllers**
 <br>
 
-### git checkout -f step-07
+1. Utiliser le pipe **ParseIntPipe** sur la méthode **findById** de **UsersControllers**
+<br>
 
 ##==##
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="exercice sfeir-bg-pink" -->
 
 # SOLUTION
-```git checkout -f step-07-solution```
+
+### TP/pipe-solution
+
 <!-- .element: class="full-center" -->
 
 ##==##
 <!-- .slide: class="exercice sfeir-bg-pink" -->
 
-# Exercice 08: Utilisation de ValidationPipe
+# Exercice 07: Utilisation de ValidationPipe
 ## Exercice
+
+### TP/validation-pipe
+<br>
 
 <br>
 1. Ajouter une validation lors de la création d’un User (Tous les champs obligatoire, Type Email …)
 <br>
 
-### git checkout -f step-08
-
 ##==##
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="exercice sfeir-bg-pink" -->
 
 # SOLUTION
-```git checkout -f step-08-solution```
+
+### TP/validation-pipe-solution
+
 <!-- .element: class="full-center" -->

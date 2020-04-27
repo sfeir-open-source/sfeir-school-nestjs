@@ -66,6 +66,9 @@ export class DemosModule {}
 ## Exercice
 <br>
 
+### TP/module
+<br>
+
 1. Créer un module user et y déclarer le controller et le service
    ```shell
     $ nest g module users
@@ -73,11 +76,11 @@ export class DemosModule {}
 2. Référencer le nouveau module dans le module principal
 <br>
 
-### git checkout -f step-03
-
 ##==##
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="exercice sfeir-bg-pink" -->
 
 # SOLUTION
-```git checkout -f step-03-solution```
+
+### TP/module-solution
+
 <!-- .element: class="full-center" -->

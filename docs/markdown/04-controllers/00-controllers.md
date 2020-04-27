@@ -152,20 +152,21 @@ app.setGlobalPrefix('api');
 ## Exercice
 <br>
 
+### TP/controller
+<br>
+
 1. Utiliser le CLI pour créer un nouveau controller **UsersController**
    ```shell
     $ nest g controller users
   ```
 2. Créer les DTO **CreateUserDto** et **UpdateUserDto**
 3. Créer les méthodes **Get**, **Post**, **Put**, **Delete** correspondant au **step-01** du fichier Postman
-<br>
-
-### git checkout -f step-01
 
 ##==##
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="exercice sfeir-bg-pink" -->
 
 # SOLUTION
-```git checkout -f step-01-solution```
-<!-- .element: class="full-center" -->
 
+### TP/controller-solution
+
+<!-- .element: class="full-center" -->

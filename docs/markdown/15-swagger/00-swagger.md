@@ -44,19 +44,19 @@ bootstrap();
 <!-- .slide: class="with-code" -->
 
 # DTO
-Chaque propriété du DTO doit être annoté avec @ApiModelProperty. L’annotation @ApiModelPropertyOptional permet de définir si un champs est obligatoire ou non.
+Chaque propriété du DTO doit être annoté avec @ApiProperty. L’annotation @ApiPropertyOptional permet de définir si un champs est obligatoire ou non.
 
 ```typescript
-import { ApiModelProperty } from '@nestjs/swagger';
+import { ApiProperty } from '@nestjs/swagger';
 
 export class CreateDemoDto {
-  @ApiModelProperty()
+  @ApiProperty()
   readonly name: string;
 
-  @ApiModelProperty()
+  @ApiProperty()
   readonly age: number;
 
-  @ApiModelProperty()
+  @ApiProperty()
   readonly test: string;
 }
 ```
@@ -79,18 +79,20 @@ https://docs.nestjs.com/recipes/swagger
 ##==##
 <!-- .slide: class="exercice sfeir-bg-pink" -->
 
-# Exercice 12: Configuration de swagger
+# Exercice 11: Configuration de swagger
 ## Exercice
-
 <br>
+
+### TP/swagger
+<br>
+
 1. Initialiser swagger sur l'application
-<br>
-
-### git checkout -f step-12
 
 ##==##
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="exercice sfeir-bg-pink" -->
 
 # SOLUTION
-```git checkout -f step-12-solution```
+
+### TP/swagger-solution
+
 <!-- .element: class="full-center" -->

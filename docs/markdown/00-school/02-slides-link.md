@@ -1,5 +1,11 @@
 <!-- .slide: class="center with-code" -->
 
-# Slides de la formation
+# Repositories
+<br>
 
-https://github.com/sfeir-open-source/sfeir-school-nestjs <!-- .element: class="center margin-top-150" -->
+**Slides de la formation** <br>
+https://github.com/sfeir-open-source/sfeir-school-nestjs
+<br><br>
+
+**Sources des exercices** <br>
+https://github.com/sfeir-open-source/sfeir-school-nestjs

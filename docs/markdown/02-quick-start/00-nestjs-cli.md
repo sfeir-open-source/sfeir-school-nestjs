@@ -28,7 +28,7 @@ $ nest new project-name
 
 # Configuration
 
-**nest-cli.json**
+Le fichier **nest-cli.json** est la carte d'identité de votre projet.
 
 ```json
 {
@@ -38,25 +38,3 @@ $ nest new project-name
 }
 ```
 <!-- .slide: class="big-code" -->
-
-##==##
-
-<!-- .slide: class="with-code" -->
-
-# Postman / Insomnia
-
-<div class="flex-row"> 
-<div class="w-500 flex-row">
- <img class="h-200" src="./assets/images/g5c7f712f61_0_0.png">
- https://www.getpostman.com/ 
-</div>
-
-<div class="w-500 flex-row">
- <img class="h-200" src="./assets/images/g5c7f712f61_0_5.png">
- https://insomnia.rest/
-</div>
-</div>
-
-<div class="full-center" style="margin-top: 100px">
-http://bit.ly/sfeir-nestjs-200-json
-</div>
