@@ -78,6 +78,10 @@ function ressourcesSlides() {
   return ['19-ressources/00-ressources.md'];
 }
 
+function school300Slides() {
+  return ['20-school-300/00-school-300.md'];
+}
+
 function formation() {
   return [
     ...schoolSlides(),
@@ -99,7 +103,8 @@ function formation() {
     ...securiteSlides(),
     ...exceptionsFiltersSlides(),
     ...passportSlides(),
-    ...ressourcesSlides()
+    ...ressourcesSlides(),
+    ...school300Slides()
   ].map(slidePath => {
     return { path: slidePath };
   });
