@@ -20,7 +20,7 @@
 </div>
 
 <div class="full-center" style="margin-top: 100px">
-http://bit.ly/sfeir-nestjs-200-json
+/sfeir-school-nestjs/TP/api-test/insomnia_***.json
 </div>
 
 ##==##

@@ -5,7 +5,9 @@
 ```shell
 $ npm install -g @nestjs/cli
 $ git clone https://github.com/sfeir-open-source/sfeir-school-nestjs/
-$ cd TP && npm i
+$ cd sfeir-school-nestjs
+$ cd TP
+$ npm i
 ```
 <!-- .element: class="big-code" -->
 

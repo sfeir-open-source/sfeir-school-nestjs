@@ -24,7 +24,7 @@ import { Controller, Get } from '@nestjs/common';
 export class DemosController {
   @Get()
   findAll(): string {
-    return 'This action returns all demos;
+    return 'This action returns all demos';
   }
 }
 ```
@@ -160,6 +160,9 @@ app.setGlobalPrefix('api');
     $ nest g controller users
   ```
 2. Créer les DTO **CreateUserDto** et **UpdateUserDto**
+   ```shell
+    $ nest g class CreateUserDto
+  ```
 3. Créer les méthodes **Get**, **Post**, **Put**, **Delete** correspondant au **step-01** du fichier Postman
 
 ##==##

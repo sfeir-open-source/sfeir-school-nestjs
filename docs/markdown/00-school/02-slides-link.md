@@ -4,7 +4,7 @@
 <br>
 
 **Slides de la formation** <br>
-https://github.com/sfeir-open-source/sfeir-school-nestjs
+https://sfeir-open-source.github.io/sfeir-school-nestjs/
 <br><br>
 
 **Sources des exercices** <br>

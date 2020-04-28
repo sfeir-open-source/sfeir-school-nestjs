@@ -10,7 +10,10 @@
 
 # A venir
 
+- HTTPS
 - GraphQL
 - Mongoose
+- Gateway ws
 - Microservices
 - Websockets
+- Tests
