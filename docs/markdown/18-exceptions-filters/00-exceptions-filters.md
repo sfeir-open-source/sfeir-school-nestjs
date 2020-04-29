@@ -105,13 +105,12 @@ const status = exception instanceof HttpException
 ### TP/exception-filter
 <br>
 
-1. Utiliser le CLI pour créer un nouveau service **UsersService**
-   ```shell
-    $ nest g service users
+1. Créer un nouveau exception filter permettant de log le message de l’exception sur toutes les erreurs HTTP
+```shell
+$ nest g filter shared/httpException
   ```
-2. Créer les méthodes **findByEmail**, **create**, **update** et **delete**
-3. Vérifier le bon fonctionnement en testant les controllers avec **console.log(‘...’)**
-<br>
+2. Ajouter en plus la date de l’exception à la réponse JSON
+3. Utiliser le filter au niveau global
 
 ##==##
 <!-- .slide: class="exercice sfeir-bg-pink" -->
