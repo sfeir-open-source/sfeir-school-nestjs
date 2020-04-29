@@ -9,11 +9,14 @@
 Il est possible de définir ses propres decorator pour notamment rendre le code plus lisible.
 
 ```typescript
-import { createParamDecorator } from '@nestjs/common';
+import { createParamDecorator, ExecutionContext } from '@nestjs/common';
 
-export const User = createParamDecorator((data, req) => {
-  return req.user;
-});
+export const User = createParamDecorator(
+  (data: unknown, ctx: ExecutionContext) => {
+    const request = ctx.switchToHttp().getRequest();
+    return request.user;
+  },
+);
 ```
 <!-- .slide: class="big-code" -->
 
@@ -38,11 +41,16 @@ async findOne(@User() user: UserEntity) {
 Il est possible de récupérer une donnée d’un objet.
 
 ```typescript
-import { createParamDecorator } from '@nestjs/common';
+import { createParamDecorator, ExecutionContext } from '@nestjs/common';
 
-export const User = createParamDecorator((data: string, req) => {
-  return data ? req.user && req.user[data] : req.user;
-});
+export const User = createParamDecorator(
+  (data: string, ctx: ExecutionContext) => {
+    const request = ctx.switchToHttp().getRequest();
+    const user = request.user;
+
+    return data ? user && user[data] : user;
+  },
+);
 ```
 
 Et de spécifier exactement quelle donnée on souhaite recevoir.

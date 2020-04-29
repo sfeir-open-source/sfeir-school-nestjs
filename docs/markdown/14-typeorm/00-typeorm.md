@@ -65,8 +65,8 @@ Dans le pattern Repository, il faut tout d’abord créer une entity.
 ```typescript
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
-@Entity()
-export class School {
+@Entity('school')
+export class SchoolEntity {
   @PrimaryGeneratedColumn()
   id: number;
 

@@ -39,7 +39,7 @@ Il faut tout d’abord installer class-validator qui est un puissant package de 
 $ npm install --save class-validator class-transformer
 ```
 
-https://github.com/typestack/class-validator
+https://github.com/typestack/class-validator#validation-decorators
 <!-- .slide: class="big-code" -->
 
 ##==##

@@ -1,6 +1,6 @@
 <!-- .slide: class="transition " -->
 
-# Sécurtié
+# Sécurité
 
 ##==##
 <!-- .slide: class="with-code" -->

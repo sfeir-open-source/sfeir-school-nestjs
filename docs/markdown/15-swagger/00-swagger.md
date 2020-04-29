@@ -41,6 +41,10 @@ bootstrap();
 ```
 
 ##==##
+
+Add missing slide on ApiOperation, ApiResponse ...
+
+##==##
 <!-- .slide: class="with-code" -->
 
 # DTO
