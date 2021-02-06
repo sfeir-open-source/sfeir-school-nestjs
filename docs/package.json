@@ -19,7 +19,9 @@
     "xxx",
     "sfeir"
   ],
-  "author": "Nicolas frizzarin <frizzarin.n@sfeir.com>",
+  "authors": [
+    "Nicolas Frizzarin <frizzarin.n@sfeir.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sfeir-open-source/sfeir-school-template/issues"

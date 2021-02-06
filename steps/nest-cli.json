@@ -1,0 +1,30 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/02-bootstraping/src",
+  "monorepo": true,
+  "root": "apps/02-bootstraping",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/02-bootstraping/tsconfig.app.json"
+  },
+  "projects": {
+    "02-bootstraping": {
+      "type": "application",
+      "root": "apps/02-bootstraping",
+      "entryFile": "main",
+      "sourceRoot": "apps/02-bootstraping/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/02-bootstraping/tsconfig.app.json"
+      }
+    },
+    "02-bootstraping-solution": {
+      "type": "application",
+      "root": "apps/02-bootstraping-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/02-bootstraping-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/02-bootstraping-solution/tsconfig.app.json"
+      }
+    }
+  }
+}
