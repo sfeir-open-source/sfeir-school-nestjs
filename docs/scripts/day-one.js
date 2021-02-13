@@ -19,11 +19,21 @@ function bootstrapingSlide() {
   ];
 }
 
+function controllerSlide() {
+  return [
+    "03-controller/01-transition.md",
+    "03-controller/02-definition.md",
+    "03-controller/03-handler.md",
+    "03-controller/100-exercice-create-controller.md",
+  ];
+}
+
 export function dayOneSLides() {
   return [
     ...introductionSlides(),
     ...speakerSlides(),
     ...configurationSLide(),
     ...bootstrapingSlide(),
+    ...controllerSlide(),
   ];
 }

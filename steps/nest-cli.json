@@ -25,6 +25,24 @@
       "compilerOptions": {
         "tsConfigPath": "apps/02-bootstraping-solution/tsconfig.app.json"
       }
+    },
+    "03-controller": {
+      "type": "application",
+      "root": "apps/03-controller",
+      "entryFile": "main",
+      "sourceRoot": "apps/03-controller/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/03-controller/tsconfig.app.json"
+      }
+    },
+    "03-controller-solution": {
+      "type": "application",
+      "root": "apps/03-controller-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/03-controller-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/03-controller-solution/tsconfig.app.json"
+      }
     }
   }
 }
