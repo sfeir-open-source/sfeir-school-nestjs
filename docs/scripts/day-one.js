@@ -28,6 +28,14 @@ function controllerSlide() {
   ];
 }
 
+function providerSlie() {
+  return [
+    "04-provider/01-transition.md",
+    "04-provider/02-definition.md",
+    "04-provider/100-exercice-create-classic-provider.md",
+  ];
+}
+
 export function dayOneSLides() {
   return [
     ...introductionSlides(),
@@ -35,5 +43,6 @@ export function dayOneSLides() {
     ...configurationSLide(),
     ...bootstrapingSlide(),
     ...controllerSlide(),
+    ...providerSlie(),
   ];
 }

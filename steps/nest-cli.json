@@ -43,6 +43,24 @@
       "compilerOptions": {
         "tsConfigPath": "apps/03-controller-solution/tsconfig.app.json"
       }
+    },
+    "04-classic-provider": {
+      "type": "application",
+      "root": "apps/04-classic-provider",
+      "entryFile": "main",
+      "sourceRoot": "apps/04-classic-provider/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/04-classic-provider/tsconfig.app.json"
+      }
+    },
+    "04-classic-provider-solution": {
+      "type": "application",
+      "root": "apps/04-classic-provider-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/04-classic-provider-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/04-classic-provider-solution/tsconfig.app.json"
+      }
     }
   }
 }
