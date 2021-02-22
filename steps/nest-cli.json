@@ -79,6 +79,24 @@
       "compilerOptions": {
         "tsConfigPath": "apps/05-custom-provider-solution/tsconfig.app.json"
       }
+    },
+    "06-module-architecture": {
+      "type": "application",
+      "root": "apps/06-module-architecture",
+      "entryFile": "main",
+      "sourceRoot": "apps/06-module-architecture/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/06-module-architecture/tsconfig.app.json"
+      }
+    },
+    "06-module-architecture-solution": {
+      "type": "application",
+      "root": "apps/06-module-architecture-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/06-module-architecture-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/06-module-architecture-solution/tsconfig.app.json"
+      }
     }
   }
 }

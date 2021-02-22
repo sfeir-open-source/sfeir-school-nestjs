@@ -38,6 +38,15 @@ function providerSlie() {
   ];
 }
 
+function moduleSlide() {
+  return [
+    "05-modules/01-transition.md",
+    "05-modules/02-definition.md",
+    "05-modules/03-module-types.md",
+    "05-modules/100-exercice-module-architecture.md",
+  ];
+}
+
 export function dayOneSLides() {
   return [
     ...introductionSlides(),
@@ -46,5 +55,6 @@ export function dayOneSLides() {
     ...bootstrapingSlide(),
     ...controllerSlide(),
     ...providerSlie(),
+    ...moduleSlide(),
   ];
 }
