@@ -33,6 +33,8 @@ function providerSlie() {
     "04-provider/01-transition.md",
     "04-provider/02-definition.md",
     "04-provider/100-exercice-create-classic-provider.md",
+    "04-provider/03-register-way.md",
+    "04-provider/101-exercice-create-custom-provider.md",
   ];
 }
 

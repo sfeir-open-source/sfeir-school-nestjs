@@ -61,6 +61,24 @@
       "compilerOptions": {
         "tsConfigPath": "apps/04-classic-provider-solution/tsconfig.app.json"
       }
+    },
+    "05-custom-provider": {
+      "type": "application",
+      "root": "apps/05-custom-provider",
+      "entryFile": "main",
+      "sourceRoot": "apps/05-custom-provider/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/05-custom-provider/tsconfig.app.json"
+      }
+    },
+    "05-custom-provider-solution": {
+      "type": "application",
+      "root": "apps/05-custom-provider-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/05-custom-provider-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/05-custom-provider-solution/tsconfig.app.json"
+      }
     }
   }
 }
