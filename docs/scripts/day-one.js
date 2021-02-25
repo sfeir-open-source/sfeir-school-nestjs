@@ -47,6 +47,14 @@ function moduleSlide() {
   ];
 }
 
+function middlewareSlide() {
+  return [
+    "06-middleware/01-transition.md",
+    "06-middleware/02-definition.md",
+    "06-middleware/03-register.md",
+  ];
+}
+
 export function dayOneSLides() {
   return [
     ...introductionSlides(),
@@ -56,5 +64,6 @@ export function dayOneSLides() {
     ...controllerSlide(),
     ...providerSlie(),
     ...moduleSlide(),
+    ...middlewareSlide(),
   ];
 }

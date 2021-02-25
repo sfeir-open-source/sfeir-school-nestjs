@@ -97,6 +97,24 @@
       "compilerOptions": {
         "tsConfigPath": "apps/06-module-architecture-solution/tsconfig.app.json"
       }
+    },
+    "07-middleware": {
+      "type": "application",
+      "root": "apps/07-middleware",
+      "entryFile": "main",
+      "sourceRoot": "apps/07-middleware/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/07-middleware/tsconfig.app.json"
+      }
+    },
+    "07-middleware-solution": {
+      "type": "application",
+      "root": "apps/07-middleware-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/07-middleware-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/07-middleware-solution/tsconfig.app.json"
+      }
     }
   }
 }
