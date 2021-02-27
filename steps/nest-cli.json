@@ -115,6 +115,60 @@
       "compilerOptions": {
         "tsConfigPath": "apps/07-middleware-solution/tsconfig.app.json"
       }
+    },
+    "08-exception-using": {
+      "type": "application",
+      "root": "apps/08-exception-using",
+      "entryFile": "main",
+      "sourceRoot": "apps/08-exception-using/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/08-exception-using/tsconfig.app.json"
+      }
+    },
+    "08-exception-using-solution": {
+      "type": "application",
+      "root": "apps/08-exception-using-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/08-exception-using-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/08-exception-using-solution/tsconfig.app.json"
+      }
+    },
+    "08-exception-create": {
+      "type": "application",
+      "root": "apps/08-exception-create",
+      "entryFile": "main",
+      "sourceRoot": "apps/08-exception-create/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/08-exception-create/tsconfig.app.json"
+      }
+    },
+    "08-exception-create-solution": {
+      "type": "application",
+      "root": "apps/08-exception-create-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/08-exception-create-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/08-exception-create-solution/tsconfig.app.json"
+      }
+    },
+    "08-exception-catching": {
+      "type": "application",
+      "root": "apps/08-exception-catching",
+      "entryFile": "main",
+      "sourceRoot": "apps/08-exception-catching/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/08-exception-catching/tsconfig.app.json"
+      }
+    },
+    "08-exception-catching-solution": {
+      "type": "application",
+      "root": "apps/08-exception-catching-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/08-exception-catching-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/08-exception-catching-solution/tsconfig.app.json"
+      }
     }
   }
 }
