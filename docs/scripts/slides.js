@@ -9,6 +9,10 @@ function sfeirInstitute() {
   return constructSlideFlow(formationSlide);
 }
 
+function sfeirSchoolInitiation() {
+  return constructSlideFlow(dayOneSLides());
+}
+
 export function usedSlides() {
-  return sfeirInstitute();
+  return sfeirSchoolInitiation();
 }
