@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/nest-cli",
   "collection": "@nestjs/schematics",
   "sourceRoot": "apps/02-bootstraping/src",
   "monorepo": true,
@@ -168,6 +169,42 @@
       "sourceRoot": "apps/08-exception-catching-solution/src",
       "compilerOptions": {
         "tsConfigPath": "apps/08-exception-catching-solution/tsconfig.app.json"
+      }
+    },
+    "09-pipe-using": {
+      "type": "application",
+      "root": "apps/09-pipe-using",
+      "entryFile": "main",
+      "sourceRoot": "apps/09-pipe-using/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/09-pipe-using/tsconfig.app.json"
+      }
+    },
+    "09-pipe-using-solution": {
+      "type": "application",
+      "root": "apps/09-pipe-using-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/09-pipe-using-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/09-pipe-using-solution/tsconfig.app.json"
+      }
+    },
+    "09-pipe-creation": {
+      "type": "application",
+      "root": "apps/09-pipe-creation",
+      "entryFile": "main",
+      "sourceRoot": "apps/09-pipe-creation/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/09-pipe-creation/tsconfig.app.json"
+      }
+    },
+    "09-pipe-creation-solution": {
+      "type": "application",
+      "root": "apps/09-pipe-creation-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/09-pipe-creation-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/09-pipe-creation-solution/tsconfig.app.json"
       }
     }
   }

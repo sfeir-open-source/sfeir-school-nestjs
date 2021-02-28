@@ -1,5 +1,17 @@
+###
 GET http://localhost:3000/api/todos
 Accept: application/json
+
+###
+
+POST http://localhost:3000/api/todos
+Content-Type: application/json
+
+{
+  "userId": 2,
+  "title": "Faire le repas du soir",
+  "completed": false
+}
 
 ###
 
@@ -7,6 +19,7 @@ GET http://localhost:3000/api/todos/1
 Accept: application/json
 
 ###
+
 
 DELETE http://localhost:3000/api/todos/1
 Accept: application/json

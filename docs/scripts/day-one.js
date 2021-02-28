@@ -66,6 +66,16 @@ function exceptionSlide() {
   ];
 }
 
+function pipeSlide() {
+  return [
+    '08-pipe/01-transition.md',
+    '08-pipe/02-definition.md',
+    '08-pipe/100-pipe-using.md',
+    '08-pipe/03-custom-pipe.md',
+    '08-pipe/100-pipe-creation.md',
+  ];
+}
+
 export function dayOneSLides() {
   return [
     ...introductionSlides(),
@@ -77,5 +87,6 @@ export function dayOneSLides() {
     ...moduleSlide(),
     ...middlewareSlide(),
     ...exceptionSlide(),
+    ...pipeSlide(),
   ];
 }
