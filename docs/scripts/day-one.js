@@ -76,6 +76,15 @@ function pipeSlide() {
   ];
 }
 
+function guardsSlide() {
+  return [
+    '09-guards/01-transition.md',
+    '09-guards/02-definition.md',
+    '09-guards/03-registration.md',
+    '09-guards/100-guards.md',
+  ];
+}
+
 export function dayOneSLides() {
   return [
     ...introductionSlides(),
@@ -88,5 +97,6 @@ export function dayOneSLides() {
     ...middlewareSlide(),
     ...exceptionSlide(),
     ...pipeSlide(),
+    ...guardsSlide(),
   ];
 }

@@ -11,3 +11,11 @@ Notes:
     - userId doit être égal à 1
     - title doit être défini,
     - completed doit être à false
+    
+##==##
+
+<!-- .slide: class="exercice" -->
+# 09-pipe-creation-solution
+## Exercice
+**Solution : 09-pipe-creation-solution**
+<!-- .element: class="full-center" -->

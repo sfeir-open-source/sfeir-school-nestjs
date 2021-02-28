@@ -206,6 +206,24 @@
       "compilerOptions": {
         "tsConfigPath": "apps/09-pipe-creation-solution/tsconfig.app.json"
       }
+    },
+    "10-guards": {
+      "type": "application",
+      "root": "apps/10-guards",
+      "entryFile": "main",
+      "sourceRoot": "apps/10-guards/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/10-guards/tsconfig.app.json"
+      }
+    },
+    "10-guards-solution": {
+      "type": "application",
+      "root": "apps/10-guards-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/10-guards-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/10-guards-solution/tsconfig.app.json"
+      }
     }
   }
 }
