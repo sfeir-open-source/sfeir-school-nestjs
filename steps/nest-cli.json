@@ -242,6 +242,24 @@
       "compilerOptions": {
         "tsConfigPath": "apps/11-interceptors-solution/tsconfig.app.json"
       }
+    },
+    "12-decorator": {
+      "type": "application",
+      "root": "apps/12-decorator",
+      "entryFile": "main",
+      "sourceRoot": "apps/12-decorator/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/12-decorator/tsconfig.app.json"
+      }
+    },
+    "12-decorator-solution": {
+      "type": "application",
+      "root": "apps/12-decorator-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/12-decorator-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/12-decorator-solution/tsconfig.app.json"
+      }
     }
   }
 }

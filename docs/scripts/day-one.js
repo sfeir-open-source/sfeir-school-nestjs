@@ -94,6 +94,13 @@ function interceptorsSlide() {
   ];
 }
 
+function decoratorsSlide() {
+  return [
+    '11-custom-decorator/01-transition.md',
+    '11-custom-decorator/02-definition.md',
+  ];
+}
+
 export function dayOneSLides() {
   return [
     ...introductionSlides(),
@@ -108,5 +115,6 @@ export function dayOneSLides() {
     ...pipeSlide(),
     ...guardsSlide(),
     ...interceptorsSlide(),
+    ...decoratorsSlide(),
   ];
 }
