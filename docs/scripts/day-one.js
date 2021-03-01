@@ -85,6 +85,15 @@ function guardsSlide() {
   ];
 }
 
+function interceptorsSlide() {
+  return [
+    '10-interceptors/01-transition.md',
+    '10-interceptors/02-definition.md',
+    '10-interceptors/03-registration.md',
+    '10-interceptors/100-interceptors.md',
+  ];
+}
+
 export function dayOneSLides() {
   return [
     ...introductionSlides(),
@@ -98,5 +107,6 @@ export function dayOneSLides() {
     ...exceptionSlide(),
     ...pipeSlide(),
     ...guardsSlide(),
+    ...interceptorsSlide(),
   ];
 }

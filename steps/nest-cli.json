@@ -224,6 +224,24 @@
       "compilerOptions": {
         "tsConfigPath": "apps/10-guards-solution/tsconfig.app.json"
       }
+    },
+    "11-interceptors": {
+      "type": "application",
+      "root": "apps/11-interceptors",
+      "entryFile": "main",
+      "sourceRoot": "apps/11-interceptors/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/11-interceptors/tsconfig.app.json"
+      }
+    },
+    "11-interceptors-solution": {
+      "type": "application",
+      "root": "apps/11-interceptors-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/11-interceptors-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/11-interceptors-solution/tsconfig.app.json"
+      }
     }
   }
 }
