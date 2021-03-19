@@ -260,6 +260,24 @@
       "compilerOptions": {
         "tsConfigPath": "apps/12-decorator-solution/tsconfig.app.json"
       }
+    },
+    "13-injection-scope": {
+      "type": "application",
+      "root": "apps/13-injection-scope",
+      "entryFile": "main",
+      "sourceRoot": "apps/13-injection-scope/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/13-injection-scope/tsconfig.app.json"
+      }
+    },
+    "13-injection-scope-solution": {
+      "type": "application",
+      "root": "apps/13-injection-scope-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/13-injection-scope-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/13-injection-scope-solution/tsconfig.app.json"
+      }
     }
   }
 }
