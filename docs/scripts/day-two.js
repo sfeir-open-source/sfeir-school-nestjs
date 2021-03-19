@@ -8,8 +8,13 @@ function scopeInjectionSLides() {
   ];
 }
 
+function lifecycleSlides() {
+  return [ '13-lifecycles/01-transition.md', '13-lifecycles/02-introduction.md' ];
+}
+
 export function dayTwoSlides() {
   return [
     ...scopeInjectionSLides(),
+    ...lifecycleSlides(),
   ];
 }
