@@ -278,6 +278,81 @@
       "compilerOptions": {
         "tsConfigPath": "apps/13-injection-scope-solution/tsconfig.app.json"
       }
+    },
+    "14-configuration-env-file": {
+      "type": "application",
+      "root": "apps/14-configuration-env-file",
+      "entryFile": "main",
+      "sourceRoot": "apps/14-configuration-env-file/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/14-configuration-env-file/tsconfig.app.json"
+      }
+    },
+    "14-configuration-env-file-solution": {
+      "type": "application",
+      "root": "apps/14-configuration-env-file-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/14-configuration-env-file-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/14-configuration-env-file-solution/tsconfig.app.json",
+        "assets": [
+          {
+            "include": "../environments/*.env",
+            "outDir": "dist/apps/14-configuration-env-file-solution/environments",
+            "watchAssets": true
+          }
+        ]
+      }
+    },
+    "14-configuration-loader": {
+      "type": "application",
+      "root": "apps/14-configuration-loader",
+      "entryFile": "main",
+      "sourceRoot": "apps/14-configuration-loader/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/14-configuration-loader/tsconfig.app.json"
+      }
+    },
+    "14-configuration-loader-solution": {
+      "type": "application",
+      "root": "apps/14-configuration-loader-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/14-configuration-loader-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/14-configuration-loader-solution/tsconfig.app.json"
+      }
+    },
+    "14-configuration-basics-validation": {
+      "type": "application",
+      "root": "apps/14-configuration-basics-validation",
+      "entryFile": "main",
+      "sourceRoot": "apps/14-configuration-basics-validation/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/14-configuration-basics-validation/tsconfig.app.json",
+        "assets": [
+          {
+            "include": "../environments/*.env",
+            "outDir": "dist/apps/14-configuration-basics-validation/environments",
+            "watchAssets": true
+          }
+        ]
+      }
+    },
+    "14-configuration-basics-validation-solution": {
+      "type": "application",
+      "root": "apps/14-configuration-basics-validation-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/14-configuration-basics-validation-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/14-configuration-basics-validation-solution/tsconfig.app.json",
+        "assets": [
+          {
+            "include": "../environments/*.env",
+            "outDir": "dist/apps/14-configuration-basics-validation-solution/environments",
+            "watchAssets": true
+          }
+        ]
+      }
     }
   }
 }
