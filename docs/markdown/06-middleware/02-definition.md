@@ -1,12 +1,12 @@
 # Qu'est ce qu'un middleware ?
-**Une middleware est une fonction appelée avant le route handler et qui a accès à l'objet de requête mais également de réponse**
+**Un middleware est une fonction appelée avant le route handler et qui a accès à l'objet de requête mais également de réponse**
 <br><br>
 
 ![h-500](assets/images/school/06-middleware/middleware.png)
 
 ##==##
 
-# Les différentes manière d'ecrire un middleware
+# Les différentes manières d'écrire un middleware
 <br><br>
 
 - une classe implémentant l'interface NestMiddleware précédée de la notation @Injectable <br><br>

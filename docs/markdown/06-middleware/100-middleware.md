@@ -3,9 +3,9 @@
 ## Exercice
 **Un controller user a été ajouté**<br><br>
 
-- Créer la route /api/user/sign-in <br><br>
+- Créez la route /api/user/sign-in <br><br>
 - Cette route prend en paramète un body avec pour type Credentials <br><br>
-- Cette route retourne le body passé  en paramètre <br><br>
+- Cette route retourne le body passé en paramètre <br><br>
 
 ##==##
 
@@ -15,7 +15,7 @@
 
 **L'objectif de ce middleware est de setter les cookies de la réponse** <br><br>
 
-- Créer un middleware settant le cookie userToken à la valeur sfeir
+- Créez un middleware settant le cookie userToken à la valeur sfeir
 
 ##==##
 

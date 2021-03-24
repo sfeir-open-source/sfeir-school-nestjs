@@ -1,9 +1,9 @@
 # Qu'est ce qu'un décorator
 <br><br>
 
-- Les décorateurs nous viennent de monde javascript <br><br>
-- Ce n'est pas pas propre à NestJs ni à Angular <br><br>
-- De simple fonction qui réalise un traitement plus ou mois complexe <br><br>
+- Les décorateurs nous viennent d monde javascript <br><br>
+- Ce n'est pas  propre à NestJs ni à Angular <br><br>
+- De simples fonctions qui réalisent un traitement plus ou moins complexe <br><br>
 
 ##==##
 

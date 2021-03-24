@@ -1,4 +1,4 @@
-# Comment enregistre t'on un interceptors ?
+# Comment enregistre t'on un interceptor?
 <br><br>
 
 - 3 manières : <br><br>

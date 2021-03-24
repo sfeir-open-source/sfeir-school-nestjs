@@ -4,18 +4,18 @@
 
 ##==##
 
-# A quoi sert un interceptors ?
+# A quoi sert un interceptor ?
 <br><br>
 
 - ajouter de la logique avant ou après un handler <br><br>
 - Transformer le résultat d'une fonction <br><br>
 - Transformer une exception <br><br>
-- Modifier la logique d'une requêtre (exemple de caching) <br><br>
+- Modifier la logique d'une requêtre (exemple de catching) <br><br>
 
 ##==##
 
 <!-- .slide: class="with-code inconsolata" -->
-# Comment écrit-on un interctor ?
+# Comment écrit-on un interceptor ?
 <br><br>
 
 ```typescript

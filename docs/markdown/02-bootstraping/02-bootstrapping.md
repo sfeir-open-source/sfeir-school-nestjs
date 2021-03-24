@@ -9,7 +9,7 @@ nest new my-awesome-back-end
 
 <br><br>
 
-- Manuellement avee l'installation des packages suivants:
+- Manuellement avec l'installation des packages suivants:
 ```shell
 npm install --save @nestjs/core @nestjs/common rxjs reflect-metadata
 ```

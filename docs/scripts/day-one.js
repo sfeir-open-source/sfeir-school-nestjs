@@ -98,6 +98,7 @@ function decoratorsSlide() {
   return [
     '11-custom-decorator/01-transition.md',
     '11-custom-decorator/02-definition.md',
+    '11-custom-decorator/100-custom-decorator.md'
   ];
 }
 

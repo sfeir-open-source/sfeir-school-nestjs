@@ -3,8 +3,8 @@
 ## Exercice
 **Nous voulons à l'aide de la route GET /user/token récuperer le token de l'utilisateur à partir des cookies**<br><br>
 
-- Créer dans le dossier shared un décorateur permettant de récupérer les cookies ou un cookie nommée<br><br>
-- Renvoyer la veluer du cookie userToken
+- Créez dans le dossier shared un décorateur permettant de récupérer les cookies ou un cookie nommée<br><br>
+- Renvoyer la valeur du cookie userToken
 
 ##==##
 

@@ -3,8 +3,8 @@
 ## Exercice
 Nous allons améliorer un peu notre architecture <br><br>
 
-- Enregistrer un custom provider qui permet de récupérer la liste de todos une fois injecté <br><br>
-- Modifier le service existant pour qu'il puisse utiliser votre custom service
+- Enregistrez un custom provider qui permet de récupérer la liste de todos une fois injectée <br><br>
+- Modifiez le service existant pour qu'il puisse utiliser votre custom service
 
 ##==##
 
@@ -12,5 +12,5 @@ Nous allons améliorer un peu notre architecture <br><br>
 # 05-custom-provider-solution
 ## Solution
 
-**la solution se trouve dans le dossier 05-custom-provider-solution**
+**Solution : 05-custom-provider-solution**
 <!-- .element: class="full-center" -->

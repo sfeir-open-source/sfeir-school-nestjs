@@ -12,7 +12,7 @@
 
 - Rendre les exports "globaux" <br><br>
 - Scope Global <br><br>
-- Possibilité d'injecter sans obligatoire importer le module
+- Possibilité d'injecter sans obligatoirement importer le module
 
 ##==##
 
@@ -34,7 +34,7 @@ export class DataServiceModule { }
 
 ##==##
 
-# Qu'est ce qu'une module dynamique ?
+# Qu'est ce qu'un module dynamique ?
 <br><br>
 
 - Module customisable <br><br>

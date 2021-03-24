@@ -15,7 +15,7 @@ function sayHello() {
 
 ## Quelles sont les annotations disponibles ?
 - __@GET__: le handler est accessible via la methode GET <br><br>
-- __@Post__: le hndler est accessible via la méthode POST <br><br>
+- __@Post__: le handler est accessible via la méthode POST <br><br>
 - __@Put__: le handler est accessible via la méthode PUT <br><br>
 - __@Patch__: le handler est accessible via la méthode PATCH <br><br>
 - __@Delete__: le handler est accessible via la méthode DELETE<br><br>
@@ -28,9 +28,9 @@ une string définissant un endpoint complémentaire à l'endpoint du controller
 ##==##
 
 <!-- .slide: class="with-code inconsolata" --> 
-# La magie du caractère __:__
+# La magie du caractère __":"__
 
-- Permet de rendre un endpoint d'Handler dynamique <br><br>
+- Permet de rendre un endpoint d'handler dynamique <br><br>
 
 ```typescript
 @Get('hello/:person')
@@ -47,11 +47,11 @@ function sayHelloToPerson(@Param('person') name: string) {
 - __@Request() / @Req()__ permet de récupérer la requête dans son intégralité <br><br>
 - __@Response() / @Res()__ permet de récupérer la réponse dans son intégralité <br><br>
 - __@Session()__ permet de récupérer la session courante <br><br>
-- __@Param(name_param?)__ permet de récupérer tous ou unique paramètre <br><br>
+- __@Param(name_param?)__ permet de récupérer tous ou l'unique paramètre <br><br>
 - __@Body(key?)__ permet de récupérer le body dans son intégralité ou partiellement <br><br>
 - __@Query(key?)__ permet de tous ou un unique query paramètre<br><br>
 - __@Ip()__ permet de récupérer l'adresse ip de l'host <br><br>
-- __@HostParam()__ recupère l'enemble des hosts
+- __@HostParam()__ permet de récupérer l'ensemble des hosts
 
 ##==##
 

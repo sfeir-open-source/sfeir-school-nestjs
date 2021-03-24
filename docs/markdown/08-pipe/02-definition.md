@@ -12,7 +12,7 @@
 
 ##==##
 
-# Les pipes déjà forunis
+# Les pipes déjà founis
 
 - **ValidationPipe** :  pipe de validation <br><br>
 - **ParseIntPipe** : pipe pour parser un entier <br><br>

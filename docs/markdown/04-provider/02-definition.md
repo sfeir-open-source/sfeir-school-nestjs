@@ -1,8 +1,8 @@
 # A quoi sert le provider 
 
-- Concept fondamentale de Nest JS <br><br>
-- Injecter des des dépendances (classes,valueur, fonction etc) <br><br>
-- Créer des relations entre object <br><br>
+- Concept fondamental de Nest JS <br><br>
+- Injecter des dépendances (classes,valueur, fonction etc) <br><br>
+- Créer des relations entre objets <br><br>
 
 ##==##
 

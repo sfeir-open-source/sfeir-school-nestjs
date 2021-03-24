@@ -17,9 +17,7 @@
 
 ```typescript
 @Controller()
-export class StudentController {
-  
-}
+export class StudentController { }
 ```
 <!-- .element: class="big-code" -->
 
@@ -40,3 +38,5 @@ __Un controller s'enregistre toujours dans le tableau de controllers d'un module
   controllers: [AppController]    
 })
 export class AppModule { }
+```
+<!-- .element: class="big-code" -->

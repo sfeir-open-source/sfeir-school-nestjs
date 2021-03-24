@@ -26,8 +26,8 @@ export class HttpExceptionFilter implements ExceptionFilter {
 # Heu pardon mais c'est quoi l'exception et l'host
 <br><br>
 
-- l'exception -> l'exception en cours (NotFoundException, HttppException, etc) <br><br>
-- l'host -> ici il s'agit du contexte d'exécution de votre application (http, graphql rpc, webSocket)<br><br>
+- l'exception -> l'exception en cours (NotFoundException, HttpException, etc) <br><br>
+- l'host -> ici il s'agit du contexte d'exécution de votre application (http, graphql, rpc, webSocket)<br><br>
     - switchToHttp() <br><br>
     - switchToRps()<br><br>
     - switchToWs()
@@ -63,7 +63,7 @@ export class RessourceNotFoundExcpetionFilter implements ExceptionFilter {
 Une fois de plus de deux manières ;) <br><br>
 
 - Propre à une route ou à un controlleur <br><br>
-- De manière global
+- De manière globale
 
 ##==##
 

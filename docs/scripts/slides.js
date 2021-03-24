@@ -15,5 +15,5 @@ function sfeirSchoolInitiation() {
 }
 
 export function usedSlides() {
-  return sfeirInstitute();
+  return sfeirSchoolInitiation();
 }
