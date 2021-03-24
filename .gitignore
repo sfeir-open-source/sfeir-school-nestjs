@@ -68,6 +68,6 @@ typings/
 
 #Dev
 docs/test.html
-docs/libs
-
-*.idea
+/.idea/
+/steps/dist/
+.vscode/settings.json

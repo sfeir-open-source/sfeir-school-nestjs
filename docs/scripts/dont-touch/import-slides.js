@@ -7,7 +7,7 @@ export function renderSlides(element, slides) {
   return render(
     html`
       ${slides.map(
-      slide => html`
+        slide => html`
           <section
             data-markdown="./markdown/${slide.path}"
             data-separator="##==##"
@@ -15,7 +15,7 @@ export function renderSlides(element, slides) {
             data-separator-notes="^Notes:"
           ></section>
         `
-    )}
+      )}
     `,
     element
   );
