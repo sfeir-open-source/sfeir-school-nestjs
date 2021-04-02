@@ -37,13 +37,37 @@ export class TodoCreationDTO {
 
 ##==##
 
+<!-- .slide: class="two-column-layout" -->
+# Comment utiliser notre DTO
+##--##
+<!-- .slide: class="with-code inconsolata" -->
+**Dans le fichier main.ts** <br><br><br><br>
+
+```typescript
+app.useGlobalPipes(new ValidationPipe({ transform: true }));
+```
+<!-- .element: class="big-code" -->
+
+
+##--##
+<!-- .slide: class="with-code inconsolata" -->
+**Dans un de vos controller** <br><br><br><br>
+
+```typescript
+createTodo(@Body() todo: TodoCreationDTO)
+```
+<!-- .element: class="big-code" -->
+
+
+##==##
+
 <!-- .slide: class="with-code inconsolata" --> 
 # Validation de tableaux de valeurs
 
 La validation d'un tableau est un peu particulière car elle demande d'utiliser un parser supplémentaire <br><br>
 
 ```typescript
-createTodos(@Body() todos: Array<CreateTodoDTO>) {} 
+createTodos(@Body() todos: Array<TodoCreationDTO>) {} 
 ```
 <!-- .element: class="big-code" -->
 
@@ -52,6 +76,6 @@ createTodos(@Body() todos: Array<CreateTodoDTO>) {}
 Ce qui nous donne la solution suivante <br><br>
 
 ```typescript
-createTodos(@Body(new ParseArrayPipe({ items: CreateTodoDTO })))
+createTodos(@Body(new ParseArrayPipe({ items: TodoCreationDTO })))
 ```
 <!-- .element: class="big-code" -->

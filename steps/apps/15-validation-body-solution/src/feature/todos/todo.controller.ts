@@ -11,9 +11,9 @@ import {
   UseInterceptors,
 } from '@nestjs/common';
 import { RessourceNotFoundException } from '../../shared/exception/not-found.exception';
+import { TodoDto } from './dto/todo.dto';
 import { TodosInterceptor } from './interceptors/get-todos.interceptor';
 import { Todo } from './models/todo.model';
-import { TodoCreationValidationPipe } from './pipes/todo-creation-validation.pipe';
 import { TodoService } from './providers/todo.service';
 
 @Controller('/api/todos')
@@ -29,7 +29,7 @@ export class TodoController {
 
   @Post()
   @HttpCode(201)
-  createTodo(@Body(TodoCreationValidationPipe) todo: Omit<Todo, 'id'>): number | NotAcceptableException {
+  createTodo(@Body() todo: TodoDto): number | NotAcceptableException {
     return this.todoService.createTodo(todo);
   }
 

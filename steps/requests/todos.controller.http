@@ -8,9 +8,9 @@ POST http://localhost:3000/api/todos
 Content-Type: application/json
 
 {
-  "userId": 2,
+  "userId": 1,
   "title": "Faire le repas du soir",
-  "completed": false
+  "completed": true
 }
 
 ###

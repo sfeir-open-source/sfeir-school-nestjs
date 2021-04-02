@@ -30,6 +30,7 @@ function validationDataSlides() {
     '15-validation-body/02-introduction.md',
     '15-validation-body/03-class-validator.md',
     '15-validation-body/04-dto-types.md',
+    '15-validation-body/100-validation-exercice-body.md'
   ];
 }
 

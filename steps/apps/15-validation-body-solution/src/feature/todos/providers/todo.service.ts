@@ -1,6 +1,7 @@
 import { Inject, Injectable } from '@nestjs/common';
 import { AppLoggerService } from '../../../core/logger/logger.service';
 import { RessourceNotFoundException } from '../../../shared/exception/not-found.exception';
+import { TodoDto } from '../dto/todo.dto';
 import { Todo } from '../models/todo.model';
 import { TODOS_MOCKS } from './todos-mocks.service';
 
@@ -15,7 +16,7 @@ export class TodoService {
     return this.todoList;
   }
 
-  createTodo(todo: Omit<Todo, 'id'>): number {
+  createTodo(todo: TodoDto): number {
     this.loggerService.log('CREATE TODO');
     const idTodo = this.todoList.length + 1;
     this.todoList.push({ ...todo, id: idTodo });
