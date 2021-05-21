@@ -353,6 +353,38 @@
           }
         ]
       }
+    },
+    "15-validation-body": {
+      "type": "application",
+      "root": "apps/15-validation-body",
+      "entryFile": "main",
+      "sourceRoot": "apps/15-validation-body/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/15-validation-body/tsconfig.app.json",
+        "assets": [
+          {
+            "include": "../environments/*.env",
+            "outDir": "dist/apps/15-validation-body/environments",
+            "watchAssets": true
+          }
+        ]
+      }
+    },
+    "15-validation-body-solution": {
+      "type": "application",
+      "root": "apps/15-validation-body-solution",
+      "entryFile": "main",
+      "sourceRoot": "apps/15-validation-body-solution/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/15-validation-body-solution/tsconfig.app.json",
+        "assets": [
+          {
+            "include": "../environments/*.env",
+            "outDir": "dist/apps/15-validation-body-solution/environments",
+            "watchAssets": true
+          }
+        ]
+      }
     }
   }
 }
