@@ -13,8 +13,8 @@
     - **Promise<boolean>**<br><br>
     - **Observable<boolean>** <br><br>
     
-- Si la valeur retourné est true -> le handler est exécuté <br><br>
-- Si la valeur retoruné est false -> le handler n'est pas éxécuté
+- Si la valeur retournée est true -> le handler est exécuté <br><br>
+- Si la valeur retorunée est false -> le handler n'est pas éxécuté
 
 ##==##
 
@@ -44,5 +44,5 @@ export class AuthGuard implements CanActivate {
 # Ordre d'éxécution
 <br><br>
 
-1. Avant tout interceptor et pipes <br><br>
+1. Avant tous interceptors et pipes <br><br>
 2. Après chaque middleware <br><br>

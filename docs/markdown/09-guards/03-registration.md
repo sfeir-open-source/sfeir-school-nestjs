@@ -1,4 +1,4 @@
-# Comment s'enregiste un guards
+# Comment s'enregiste un guard
 <br><br>
 
 - Sur le scope du handler <br><br>

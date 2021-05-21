@@ -29,10 +29,10 @@ Il est conseillé d'utiliser le CLI de Nest pour bootstraper un projet, cependan
 
 ##==##
 
-# Bienvenue dans vsode
+# Bienvenue dans VSCode
 
 - Solution proposée par Microsoft<br><br>
-- Entièrement customizable, de nombreux plugins<br><br>
+- Entièrement customisable, de nombreux plugins<br><br>
 - Paramétrer pour en faire un IDE complet prend du temps<br><br>
 
 ![h-400 w-400](assets/images/school/01-setup-env/editorconfig.png)
@@ -43,15 +43,15 @@ Il est conseillé d'utiliser le CLI de Nest pour bootstraper un projet, cependan
 # Bienvenue dans Webstorm
 
 - Solution proposée par JetBrains (éditeur d'IDE) <br><br>
-- Viens avec tout le nécessaire (debug, tests, support syntaxique pour les frameworks front) <br><br>
+- Vient avec tout le nécessaire (debug, tests, support syntaxique pour les frameworks front) <br><br>
 - Payant mais très puissant <br><br>
 
 ##==##
 
 <!-- .slide: class="with-code inconsolata" -->
-# Dependances nécessaires aux tps
+# Dépendances nécessaires aux TPS
 
-Déplacer vous dans le dossier steps et taper la commande suivante:
+Déplacez vous dans le dossier steps et tapez la commande suivante:
 ```shell
 npm install
 ```
@@ -71,12 +71,12 @@ npm ci
 <!-- .slide: class="with-code inconsolata" -->
 # Comment lancer l'exercice d'un TP 
 
-Dans le dossier steps/apps, il y a un dossier par concepts / chapitre
+Dans le dossier steps/apps, il y a un dossier par concept / chapitre
 
 Pour lancer le serveur **Nest** contenu dans ce dossier il vous suffira de lancer la commande suivante dans le dossiers steps <br><br>
 
 ```shell
-npm run start:dev -- _nom_dossier_dans_apps__
+npm run start -- _nom_dossier_dans_apps__
 ```
 <!-- .element: class="big-code" -->
 
@@ -85,6 +85,6 @@ npm run start:dev -- _nom_dossier_dans_apps__
 ## Exemple
 
 ```shell
-npm run start:dev -- 02-bootstaping
+npm run start -- 02-bootstaping
 ```
 <!-- .element: class="big-code" -->

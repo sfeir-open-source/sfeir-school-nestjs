@@ -1,4 +1,4 @@
-# Il existe différente manière d'enregitrer un provider
+# Il existe différentes manières d'enregitrer un provider
 <br><br>
 
 - Par valeur <br><br>
@@ -33,7 +33,7 @@ Si nous avions providé une class, cette annotation serait inutile
 ##==##
 
 <!-- .slide: class="with-code inconsolata"-->
-# Par Class
+# Par Classe
 
 ```typescript
 @Module({

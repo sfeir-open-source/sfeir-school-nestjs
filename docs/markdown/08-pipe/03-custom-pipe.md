@@ -20,16 +20,16 @@ export class TodoValidationPipe implements PipeTransform {
 Il s'agit des métadatas de la fonction de l'argument <br><br>
 - type : **@Body**/**@Query**/**@Param** <br><br>
 - metatype: Metatype de l'argument <br><br>
-- data: valeur passé au decorateur -> @Body('id') <br><br>
+- data: valeur passée au decorateur -> @Body('id') <br><br>
 
 ##==##
 
-# Porté d'un pipe
+# Portée d'un pipe
 
 - paramètre <br><br>
-- method <br><br>
+- méthode <br><br>
 - controller <br><br>
-- global <br><br>
+- globale <br><br>
 
 ##==##
 

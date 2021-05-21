@@ -1,13 +1,13 @@
 # Comment enregister son middleware ?
 <br><br>
 
-- De manière global <br><br>
+- De manière globale <br><br>
 - Sur un ensemble de routes
 
 ##==##
 
 <!-- .slide: class="with-code incconsolata" -->
-# De manière global
+# De manière globale
 **L'enregistrement se fait dans le fichier main.ts** 
 
 <br><br>
@@ -22,7 +22,7 @@ await app.listen(3000);
 ##==##
 
 <!--.slide: class="with-code inconsolata"-->
-# Sur un ensemble de route
+# Sur un ensemble de routes
 ```typescript
 import { Module, NestModule, MiddlewareConsumer } from '@nestjs/common';
 import { CookiesMiddleWare } from './feature/user/cookieMiddleware';

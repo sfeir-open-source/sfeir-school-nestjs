@@ -7,9 +7,9 @@ Actuellement l'application démarre, mais aucun endpoint s'enregistre, quel domm
 **Mais pourquoi ?** 
 <br><br>
 
-- Analyser le projet <br><br>
-- Créer le bootstraping<br><br>
-- Vérifier votre travail en appelant le endpoint suivant: **http://localhost:3000**
+- Analysez le projet <br><br>
+- Créez le bootstraping<br><br>
+- Vérifiez votre travail en appelant le endpoint suivant: **http://localhost:3000**
 
 ##==##
 
@@ -17,5 +17,5 @@ Actuellement l'application démarre, mais aucun endpoint s'enregistre, quel domm
 # 02-bootstraping-solution
 ## Solution
 
-**la solution se trouve dans le dossier 02-bootstraping-solution**
+**Solution : 02-bootstraping-solution**
 <!-- .element: class="full-center" -->
