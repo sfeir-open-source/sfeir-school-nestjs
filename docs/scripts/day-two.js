@@ -20,7 +20,7 @@ function configurationSlide() {
     '14-configuration/04-config-service.md',
     '14-configuration/100-exercice-basics-configuration.md',
     '14-configuration/05-configuration-validation.md',
-    '14-configuration/100-exercice-basics-validation.md'
+    '14-configuration/100-exercice-basics-validation.md',
   ];
 }
 
@@ -30,7 +30,14 @@ function validationDataSlides() {
     '15-validation-body/02-introduction.md',
     '15-validation-body/03-class-validator.md',
     '15-validation-body/04-dto-types.md',
-    '15-validation-body/100-validation-exercice-body.md'
+    '15-validation-body/100-validation-exercice-body.md',
+  ];
+}
+
+function testingSLides() {
+  return [
+    '16-testing/01-transition.md',
+    '16-testing/02-introduction.md',
   ];
 }
 
@@ -40,5 +47,6 @@ export function dayTwoSlides() {
     ...lifecycleSlides(),
     ...configurationSlide(),
     ...validationDataSlides(),
+    ...testingSLides(),
   ];
 }
