@@ -3,7 +3,7 @@
 Pour utiliser Nest le plus facilement possible, pensez à installer son CLI
 
 ```shell
-npm run install -g @nestjs/cli
+npm install -g @nestjs/cli
 ```
 <!-- .element: class="big-code" -->
 <br>
@@ -49,22 +49,14 @@ Il est conseillé d'utiliser le CLI de Nest pour bootstraper un projet, cependan
 ##==##
 
 <!-- .slide: class="with-code inconsolata" -->
-# Dépendances nécessaires aux TPS
+# Bootstrapping de l'application
 
-Déplacez vous dans le dossier steps et tapez la commande suivante:
-```shell
-npm install
+```bash
+git clone https://github.com/sfeir-open-source/sfeir-school-nestjs.git
+cd steps && npm i || npm ci
 ```
+
 <!-- .element: class="big-code" -->
-
-<br>
-ou
-<br><br>
-
-```shell
-npm ci
-```
-<!-- .element: class="big-code"-->
 
 ##==##
 

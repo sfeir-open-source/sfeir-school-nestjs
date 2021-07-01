@@ -7,7 +7,7 @@
 
 ##==##
 
-# Quelle est alors la phylosophie de Nest Js ?
+# Quelle est alors la philosophie de Nest Js ?
 
 - Mix de trois manières de programmation: Object, Fonctionnelle et Reactive Fonctionnelle<br><br>
 - Application hautement scalable<br><br>
