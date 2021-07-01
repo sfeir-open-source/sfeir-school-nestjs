@@ -5,7 +5,7 @@
 
 ```typescript
 @Get('hello')
-function sayHello() {
+sayHello() {
   return 'Hello';
 }
 ```
@@ -34,7 +34,7 @@ une string définissant un endpoint complémentaire à l'endpoint du controller
 
 ```typescript
 @Get('hello/:person')
-function sayHelloToPerson(@Param('person') name: string) {
+sayHelloToPerson(@Param('person') name: string) {
   return `Hello ${name}`;
 }
 ```
@@ -63,12 +63,12 @@ interface body {
   password: string;
 }
 @Patch('user/:id')
-function updateUser(@Body() update: body) {
+updateUser(@Body() update: body) {
   return update; // { name: 'Nicolas', password: 'Nicolas' }
 }
 
 @Patch('user/:id')
-function updateUser(@Body('password') update: body) {
+updateUser(@Body('password') update: body) {
     return update; // Nicolas
 }
 ```

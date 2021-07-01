@@ -22,7 +22,7 @@
 ```typescript
 @Controller()
 export class TodoController {
-  constructor(@Inject('mocksData') private readonly todoMockData: Todo[]) {}
+  constructor(@Inject('mocksData') private readonly myMockData: string) {}
 }
 ```
 <!-- .element: class="big-code" -->

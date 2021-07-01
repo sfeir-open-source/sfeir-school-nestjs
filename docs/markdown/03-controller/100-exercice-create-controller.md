@@ -1,5 +1,5 @@
 <!-- .slide: class="exercice" -->
-# 03-controller (part 1)
+# 03-controller
 ## Exercice
 Vous allez coder votre premier controller :) ! <br><br>
 
@@ -13,7 +13,7 @@ Vous allez coder votre premier controller :) ! <br><br>
 ##==##
 
 <!-- .slide: class="exercice" -->
-# 02-controller-solution
+# 03-controller-solution
 ## Solution
 
 **Solution : 03-controller-solution**
