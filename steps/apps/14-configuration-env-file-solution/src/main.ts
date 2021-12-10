@@ -7,10 +7,10 @@ let loggerService: AppLoggerService = undefined;
 let configService: ConfigService = undefined;
 
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
+  const app = await NestFactory.create(AppModule, { bufferLogs: true });
   configService = app.get(ConfigService);
   loggerService = await app.resolve(AppLoggerService);
-  app.useLogger(new AppLoggerService());
+  app.useLogger(loggerService);
   await app.listen(configService.get<number>('PORT'));
 }
 
