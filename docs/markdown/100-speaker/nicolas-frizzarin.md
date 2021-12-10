@@ -7,7 +7,7 @@
 
 <h2>Nicolas <span>Frizzarin</span></h2>
 
-### Developer FullStack JS/TS &&  Influencer
+### Developer FullStack JS/TS &&  Team Leader
 <!-- .element: class="icon-rule icon-first"-->
 
 ### @Nicooss54
