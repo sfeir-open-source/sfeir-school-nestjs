@@ -1,7 +1,7 @@
 import { Global, Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { APP_FILTER, APP_GUARD } from '@nestjs/core';
-import { number, object } from 'joi';
+import * as Joi from 'joi';
 import { resolve } from 'path';
 import { RessourceNotFoundExceptionFilter } from './exception/not-found-catching.exception';
 import { AuthorizationGuard } from './guards/authorization.guard';
@@ -13,8 +13,8 @@ import { AppLoggerService } from './logger/logger.service';
     ConfigModule.forRoot({
       isGlobal: true,
       envFilePath: resolve(__dirname, 'environments', 'local.env'),
-      validationSchema: object({
-        PORT: number().required(),
+      validationSchema: Joi.object({
+        PORT: Joi.number().required(),
       }),
     }),
   ],
