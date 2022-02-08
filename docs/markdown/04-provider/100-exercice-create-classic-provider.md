@@ -1,5 +1,5 @@
 <!-- .slide: class="exercice" -->
-# 03-classic-provider
+# 04-classic-provider
 ## Exercice
 Nous allons améliorer un peu notre premier controller <br><br>
 

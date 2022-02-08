@@ -17,7 +17,7 @@ L'ensemble des Tps et des solutions se trouvent dans le dossier steps
 
 Cloner le project
 ```bash
-git clone https://github.com/sfeir-open-source/sfeir-school-angular.git
+git clone https://github.com/sfeir-open-source/sfeir-school-nestjs.git
 ```
 <br>
 
