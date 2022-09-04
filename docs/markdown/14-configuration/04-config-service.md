@@ -1,7 +1,6 @@
 <!-- .slide: class="with-code inconsolata" -->
 # Comment récupérer sa configuration 
-
-**Le module ConfigModule exporte un service ConfigService permettant de récupérer notre config** <br><br>
+**Le module ConfigModule exporte un service ConfigService permettant de récupérer notre config** <br/><br/>
 
 ```typescript
 import { ConfigService } from '@nestjs/config';
@@ -18,7 +17,7 @@ export class UserService {
 <!-- .slide: class="with-code inconsolata" -->
 # Comment récupérer une propriété de sa configuration
 
-**ConfigService expose une methode get<T>('key') permettant de récupérer une propriété de sa configuration** <br><br><br>
+**ConfigService expose une méthode get<T>('key') permettant de récupérer une propriété de sa configuration** <br/><br/>
 
 ```typescript
 this.configService.get<number>('PORT');
@@ -27,10 +26,8 @@ this.configService.get<number>('PORT');
 
 ##==##
 
-<!-- .slide: class="with-code inconsolota" -->
+<!-- .slide: class="with-code inconsolata" -->
 # Et si je veux récupérer ma config au lancement du serveur ?
-<br><br><br>
-
 ```typescript
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);

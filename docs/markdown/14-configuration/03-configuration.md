@@ -1,14 +1,11 @@
 # Comment réaliser sa configuration
-<br><br>
-
-- Par fichier .env<br><br>
-- En réalisation une fonction de load custom<br><br>
+- Par fichier .env<br/><br/>
+- En réalisation une fonction de load custom<br/><br/>
 
 ##==##
 
 <!-- .slide: class="with-code inconsolata" -->
 # Par fichier .env
-
 ```typescript
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
@@ -20,7 +17,8 @@ import { ConfigModule } from '@nestjs/config';
 })
 export class AppModule {}
 ```
-<br><br>
+<!-- .element: class="medium-code"-->
+
 
 ```typescript
 import { Module } from '@nestjs/common';
@@ -33,13 +31,12 @@ import { ConfigModule } from '@nestjs/config';
 })
 export class AppModule {}
 ```
+<!-- .element: class="medium-code"-->
 
 ##==##
 
 <!-- .slide: class="with-code inconsolata" -->
 # Par une fonction de configuration
-<br>
-
 ```typescript
 export default () => ({
   port: parseInt(process.env.PORT, 10) || 3000,
@@ -48,7 +45,8 @@ export default () => ({
   }
 });
 ```
-<br><br>
+<!-- .element: class="medium-code"-->
+
 
 ```typescript
 import configuration from './config/configuration';
@@ -62,6 +60,7 @@ import configuration from './config/configuration';
 })
 export class AppModule {}
 ```
+<!-- .element: class="medium-code"-->
 
 Notes:
 Il est possible de charger plusieurs fichier de configurations permettant de découpler la configuration de votre application.
@@ -72,20 +71,19 @@ Pour réaliser ce genre de procédé il faudra utiliser la fonction registerAs('
 
 <!-- .slide: class="with-code inconsolata" -->
 # Le build ne compile que les fichiers typescripts
+**Par défaut, Nest ne compile que vos fichiers en typescript, il faut donc copier vos fichiers quand vous effectuez votre build** <br/><br/>
 
-**Par défaut, Nest ne compile que vos fichiers en typescript, il faut donc copier vos fichiers quand vous effectuez votre build** <br><br>
-
-Il faut ajouter de la config au niveau du compilerOptions de votre projet -> fichier **nest-cli.json** <br><br>
+Il faut ajouter de la config au niveau du compilerOptions de votre projet -> fichier **nest-cli.json** <br/><br/>
 
 ```json
 {
     "compilerOptions": {
         "assets": [{
-            "include": "../envrionements/*.env",
-            "outDir": "dist/app/envrionments"
+            "include": "../environnements/*.env",
+            "outDir": "dist/app/environments"
         }]
     }
 }
 ```
-<!-- .element: class="big-code" -->
+<!-- .element: class="medium-code" -->
 
