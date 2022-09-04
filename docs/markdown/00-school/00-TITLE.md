@@ -6,11 +6,11 @@
 
 # Déroulement de la formation
 
-<p class="center">
-C'est quand la pause ?<br>
-Quand est-ce qu'on mange ?<br>
-Tour de table ...
-</p>
-<br><br>
+- C'est quand la pause ?<br/>
+- Quand est-ce qu'on mange ?<br/>
+- Tour de table ...
 
-**Feuille de présence (obligatoire)** <!-- .element: class="center" -->
+<br/><br/>
+
+**Feuille de présence (obligatoire)** 
+<!-- .element: class="center" -->

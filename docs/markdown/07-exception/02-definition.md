@@ -6,13 +6,12 @@
 ##==##
 
 # Les "build-in" exceptions
-
-- Nest catch toutes les HttpExceptions et vous offre une mulitude d'exceptions à utiliser
+- Nest catch toutes les HttpExceptions et vous offre une multitude d'exceptions à utiliser
     - **BadRequestException**
     - **UnauthorizedException**
     - **NotFoundException**
     - **ForbiddenException**
-    - **... et bien d'autres :)** <br><br>
+    - **... et bien d'autres :)** <br/><br/>
     
 - une exception est une simple classe qui étend la class HttpException
 
@@ -20,10 +19,9 @@
 
 <!-- .slide: class="with-code inconsolata"-->
 # Créer ses propres exceptions, comment faire ?
-
 - Théoriquement les "build-in" se suffisent en eux même **mais**
 - Créer ses propres exceptions c'est possible !
-- **Best Practice** : réaliser une hiérarchie de vos custom exceptions <br><br><br>
+- **Best Practice** : réaliser une hiérarchie de vos customs exceptions <br/><br/><br/>
 
 ```typescript
 export class notTodoFindException extends HttpException {

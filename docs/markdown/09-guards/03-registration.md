@@ -1,16 +1,12 @@
-# Comment s'enregiste un guard
-<br><br>
-
-- Sur le scope du handler <br><br>
-- Sur le scope du controller <br><br>
-- Sur le scope globale <br><br>
+# Comment s’enregistre un guard
+- Sur le scope du handler <br/><br/>
+- Sur le scope du controller <br/><br/>
+- Sur le scope globale <br/><br/>
 
 ##==##
 
 <!-- .slide: class="with-code inconsolata" -->
 # Scope handler
-<br><br>
-
 ```typescript
 @Post()
 @UseGuards(AuthorizationGuards)
@@ -18,7 +14,7 @@ createTodo() { }
 ```
 <!-- .element: class="big-code" -->
 
-<br><br>
+<br/><br/>
 
 ```typescript
 @Post()
@@ -31,7 +27,7 @@ createTodo() { }
 
 <!-- .slide: class="with-code inconsolata" -->
 # Scope Controller
-<br><br>
+
 ```typescript
 @UseGuards(AuthorizationGuards)
 @Controller('api/todos')
@@ -39,7 +35,7 @@ export class TodoController
 ```
 <!-- .element: class="big-code" -->
 
-<br><br>
+<br/><br/>
 
 ```typescript
 
@@ -53,8 +49,7 @@ export class TodoController { }
 
 <!-- .slide: class="with-code inconsolata"-->
 # Scope Global
-
-**Dans le fichier main.ts** <br><br><br>
+**Dans le fichier main.ts** <br/><br/>
 
 ```typescript
 const app = await NestFactory.create(AppModule);
@@ -66,8 +61,7 @@ app.useGlobalGuards(new RolesGuard());
 
 <!-- .slide: class="with-code inconsolata" -->
 # Scope Global
-
-**Dans un nest module** <br><br>
+**Dans un nest module** <br/><br/>
 
 ```typescript
 import { Module } from '@nestjs/common';
@@ -83,7 +77,7 @@ import { APP_GUARD } from '@nestjs/core';
 })
 export class AppModule {}
 ```
-<!-- .element: class="big-code" -->
+<!-- .element: class="medium-code" -->
 
 
 

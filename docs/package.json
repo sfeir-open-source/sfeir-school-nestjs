@@ -3,20 +3,20 @@
   "version": "1.0.0",
   "description": "Sfeir School Nest js with revealJS",
   "scripts": {
-    "sass": "sass --watch ./scss/:css/ --source-map",
-    "sass-once": "sass /scss/:css/ --source-map",
+    "sass": "sass ./scss/slides.scss:./css/slides.css --source-map --watch",
+    "sass-once": "sass ./scss/slides.scss:./css/slides.css --source-map",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "live-server --port=4242 --open=\"./index.html\" --watch=\"markdown,scripts,scss/\"",
+    "serve": "live-server --port=4242 --open=\"./index.html\" --watch=\"markdown,scripts/\"",
     "start": "parallelshell \"npm run serve\" \"npm run sass\"",
-    "copy-reveal": "cpx \"node_modules/reveal.js/**/*\" \"web_modules/reveal.js\" "
+    "prepare": "node ./scripts/dont-touch/prepare-script.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sfeir-open-source/sfeir-school-template.git"
   },
   "keywords": [
-    "xxx",
-    "sfeir"
+    "Nest JS",
+    "SFEIR"
   ],
   "authors": [
     "Nicolas Frizzarin <frizzarin.n@sfeir.com>"
@@ -27,22 +27,13 @@
   },
   "homepage": "https://github.com/sfeir-open-source/sfeir-school-template",
   "dependencies": {
-    "highlight.js": "^9.15.6",
-    "lit-html": "^1.3.0",
-    "reveal.js": "^3.9.2",
-    "sass": "^1.44.0"
+    "sfeir-school-theme": "^3.0.0-rc-1"
   },
   "devDependencies": {
-    "chokidar-cli": "^1.2.2",
+    "chokidar-cli": "^3.0.0",
     "live-server": "^1.2.1",
+    "sass": "^1.51.0",
     "parallelshell": "3.0.1",
-    "snowpack": "1.6.0"
-  },
-  "snowpack": {
-    "webDependencies": [
-      "sfeir-school-theme/dist/**/*",
-      "lit-html",
-      "highlight.js/styles/**/*"
-    ]
+    "shelljs": "^0.8.5"
   }
 }

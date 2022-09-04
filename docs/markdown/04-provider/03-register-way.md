@@ -1,8 +1,6 @@
-# Il existe différentes manières d'enregitrer un provider
-<br><br>
-
-- Par valeur <br><br>
-- Par classe <br><br>
+# Il existe différentes manières d’enregistrer un provider
+- Par valeur <br/><br/>
+- Par classe <br/><br/>
 - Par fonction
 
 ##==##
@@ -17,7 +15,7 @@
 ```
 <!-- .element: class="big-code" -->
 
-<br><br>
+<br/><br/>
 
 ```typescript
 @Controller()
@@ -26,6 +24,7 @@ export class TodoController {
 }
 ```
 <!-- .element: class="big-code" -->
+
 Notes:
 Ici on provide un element qui n'est pas une class annotée de l'annotation @Injectable ce qui nous force à utilser l'annotation @Inject
 Si nous avions providé une class, cette annotation serait inutile
@@ -42,7 +41,7 @@ Si nous avions providé une class, cette annotation serait inutile
 ```
 <!-- .element: class="big-code" -->
 
-<br><br>
+<br/><br/>
 
 ```typescript
 @Controller()
@@ -58,7 +57,8 @@ export class TodoController {
 # Par Factory
 La factory est très utile quand on souhaite réaliser un métier plus compliqué ou quelque chose d'asynchrone
 
-<br><br>
+<br/><br/>
+
 ```typescript
 @Module({
   providers: [{
@@ -78,7 +78,8 @@ Parfois il peut être utile de déclarer un service qui aura pour valeur un serv
 
 C'est ici que la notion de useExisting prend tout son sens
 
-<br><br>
+<br/><br/>
+
 ```typescript
 @Module({
     providers: [{

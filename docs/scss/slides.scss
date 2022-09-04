@@ -1,5 +1,10 @@
 .reveal .slides section {
   #toto {
-    color: green
+    color: green;
   }
+}
+
+.reveal .slides section.with-code pre.medium-code:not(.literal) code {
+  font-size: 1.1em;
+  line-height: 2em;
 }
