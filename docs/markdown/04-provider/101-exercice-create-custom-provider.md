@@ -1,8 +1,6 @@
 <!-- .slide: class="exercice" -->
 # 03-custom-provider
-## Exercice
-Nous allons améliorer un peu notre architecture <br><br>
-
+## Lab
 - Enregistrez un custom provider qui permet de récupérer la liste de todos une fois injectée <br><br>
 - Modifiez le service existant pour qu'il puisse utiliser votre custom service
 
@@ -10,7 +8,7 @@ Nous allons améliorer un peu notre architecture <br><br>
 
 <!-- .slide: class="exercice" -->
 # 05-custom-provider-solution
-## Solution
+## Soluce
 
 **Solution : 05-custom-provider-solution**
 <!-- .element: class="full-center" -->

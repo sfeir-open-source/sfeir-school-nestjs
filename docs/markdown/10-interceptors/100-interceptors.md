@@ -1,16 +1,16 @@
 <!-- .slide: class="exercice" -->
 # 11-interceptors
-## Exercice
-**L'objectif de cet excercice est de modifier le body d'une todo renvoyé par le handler** <br><br>
+## Lab
+**L'objectif de cet exercice est de modifier le body d'une todo renvoyé par le handler** <br/><br/>
 
-- Créez un interceptor qui permet de compléter le body d'une todo avec un **username: sfeir** <br><br>
-- Enregistrez votre interceptor sur la route GET /todos <br><br>
-- Enregistrez votre interceptor sur la route GET /todos/:id <br><br>
+- Créez un interceptor qui permet de compléter le body d'une todo avec un **username: sfeir**
+- Enregistrez votre interceptor sur la route GET /todos
+- Enregistrez votre interceptor sur la route GET /todos/:id
 
 ##==##
 
 <!-- .slide: class="exercice"-->
 # 11-interceptors
-## Solution
+## Soluce
 **Solution : 11-interceptors-solution**
 <!-- .element: class="full-center" -->

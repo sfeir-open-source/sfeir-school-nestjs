@@ -1,6 +1,5 @@
 <!-- .slide: class="with-code inconsolata" -->
 # Comment créer ses propres pipes
-
 ```typescript
 import { PipeTransform, Injectable, ArgumentMetadata, NotAcceptableException } from '@nestjs/common';
 
@@ -16,27 +15,23 @@ export class TodoValidationPipe implements PipeTransform {
 ##==##
 
 # Heu les metadata ? C'est quoi ?
-
-Il s'agit des métadatas de la fonction de l'argument <br><br>
-- type : **@Body**/**@Query**/**@Param** <br><br>
-- metatype: Metatype de l'argument <br><br>
-- data: valeur passée au decorateur -> @Body('id') <br><br>
+Il s'agit des metadatas de la fonction de l'argument <br/><br/>
+- type : **@Body**/**@Query**/**@Param** <br/><br/>
+- metatype: Metatype de l'argument <br/><br/>
+- data: valeur passée au décorateur -> @Body('id') <br/><br/>
 
 ##==##
 
 # Portée d'un pipe
-
-- paramètre <br><br>
-- méthode <br><br>
-- controller <br><br>
-- globale <br><br>
+- paramètre <br/><br/>
+- méthode <br/><br/>
+- controller <br/><br/>
+- globale <br/><br/>
 
 ##==##
 
 <!-- .slide: class="with-code inconsolata"-->
 # Enregistrement sur un paramètre
-<br><br>
-
 ```typescript
 @Post()
 createTodo(@Body(TodoValidationPipe) body: Todo) : Todo | HttpException { }
@@ -48,10 +43,8 @@ createTodo(@Body(new TodoValidationPipe()) body: Todo) : Todo | HttpException { 
 
 ##==##
 
-<!-- .slide: class="with-code incoonsolata" -->
+<!-- .slide: class="with-code inconsolata" -->
 # Sur une méthode ou un controller
-<br><br>
-
 ```typescript
 @Post()
 @UsePipes(TodoValidationPipe)
@@ -67,8 +60,7 @@ export class TodoController { }
 
 <!-- .slide: class="with-code inconsolata"-->
 # De manière globale
-
-**Dans le fichier main.ts** <br><br>
+**Dans le fichier main.ts** <br/><br/>
 
 ```typescript
 async function bootstrap() {
@@ -84,7 +76,7 @@ bootstrap();
 
 <!-- .slide: class="with-code inconsolata"-->
 # De manière globale
-**Dans un module** <br><br>
+**Dans un module** <br/><br/>
 
 ```typescript
 @Module({

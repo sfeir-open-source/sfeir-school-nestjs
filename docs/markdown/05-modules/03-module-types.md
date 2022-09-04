@@ -1,17 +1,15 @@
 # Il existe deux types de module
-<br><br>
-
-- global <br><br>
-- dynamique <br><br>
+- global <br/><br/>
+- dynamique <br/><br/>
 
 ##==##
 
 # Les Modules Globaux
 
-**A l'instar d'Angular les services sont injectés dans le scope du module** <br><br>
+**A l'instar d'Angular les services sont injectés dans le scope du module** <br/><br/>
 
-- Rendre les exports "globaux" <br><br>
-- Scope Global <br><br>
+- Rendre les exports "globaux" <br/><br/>
+- Scope Global <br/><br/>
 - Possibilité d'injecter sans obligatoirement importer le module
 
 ##==##
@@ -35,18 +33,14 @@ export class DataServiceModule { }
 ##==##
 
 # Qu'est ce qu'un module dynamique ?
-<br><br>
-
-- Module customisable <br><br>
-- Possibilité de passer des paramètres <br><br>
+- Module customisable <br/><br/>
+- Possibilité de passer des paramètres <br/><br/>
 - très utile lors de la création de librairie
 
 ##==##
 
-<!-- .slide: class="with-code inconsolota" -->
+<!-- .slide: class="with-code inconsolata" -->
 # Comment créer un module dynamique
-<br><br>
-
 ```typescript
 import { Module } from '@nestjs/common';
 

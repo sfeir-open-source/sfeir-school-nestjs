@@ -1,8 +1,7 @@
-# L'apect modulaire est très important
-
-- un module par fonctionnalité (endpoint) <br><br>
-- un shared module <br><br>
-- un core module <br><br>
+# L'aspect modulaire est très important
+- un module par fonctionnalité (endpoint) <br/><br/>
+- un shared module <br/><br/>
+- un core module <br/><br/>
 - assure la haute scalabilité de l'architecture
 
 ##==##
@@ -10,7 +9,7 @@
 <!-- .slide: class="with-code inconsolata"-->
 # Qu'est ce qu'un module ?
 
-**Un module est une classe précédée par l'annotation @Module** <br><br>
+**Un module est une classe précédée par l'annotation @Module** <br/><br/>
 
 ```typescript
 import { Module } from '@nestjs/common';
@@ -27,10 +26,10 @@ export class AppModule { }
 
 ##==##
 
-<!-- .slide: class="with-code" -->
+<!-- .slide: class="with-code inconsolata" -->
 # Où s'importe un module ?
 
-**Un module s'importe toujours dans le tableau des imports d'un autre module** <br><br>
+**Un module s'importe toujours dans le tableau des imports d'un autre module** <br/><br/>
 
 ```typescript
 import { Module } from '@nestjs/common';

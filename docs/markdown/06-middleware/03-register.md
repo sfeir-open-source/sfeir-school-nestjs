@@ -1,16 +1,14 @@
-# Comment enregister son middleware ?
-<br><br>
-
-- De manière globale <br><br>
+# Comment enregistrer son middleware ?
+- De manière globale <br/><br/>
 - Sur un ensemble de routes
 
 ##==##
 
-<!-- .slide: class="with-code incconsolata" -->
+<!-- .slide: class="with-code inconsolata" -->
 # De manière globale
 **L'enregistrement se fait dans le fichier main.ts** 
 
-<br><br>
+<br/><br/>
 
 ```typescript
 const app = await NestFactory.create(AppModule);
@@ -37,8 +35,9 @@ export class AppModule implements NestModule {
       .forRoutes(UserController);
   }
 }
-````
-<!--.element: class="big-code" -->
+```
+<!-- .element: class="big-code"-->
+
 Notes: 
 - Il est possible de d'enregistrer plusieurs middleware d'un coup en les séparant pas une virgule
 - Il est possible de passer plusieurs controller en les séparant pas une virgule

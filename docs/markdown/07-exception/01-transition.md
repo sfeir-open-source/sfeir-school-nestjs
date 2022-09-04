@@ -1,3 +1,3 @@
-<!-- .slide: class="transition-bg-grey-4 underline" -->
+<!-- .slide: class="transition-bg-sfeir-1 green" -->
 
 # Les exceptions

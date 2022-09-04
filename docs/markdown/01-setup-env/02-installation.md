@@ -1,14 +1,15 @@
-<!-- .slide: class="with-code Inconsolata" -->
+<!-- .slide: class="with-code inconsolata" -->
 # Nest js et son CLI
 Pour utiliser Nest le plus facilement possible, pensez à installer son CLI
 
-```shell
+```bash
 npm run install -g @nestjs/cli
 ```
 <!-- .element: class="big-code" -->
-<br>
+<br/>
 
 ![center h-800](assets/images/school/01-setup-env/nest-cli.png)
+
 Notes:
 Il est conseillé d'utiliser le CLI de Nest pour bootstraper un projet, cependant il est possible de le faire manuellement en installant les package suivant:
 - @nestjs/core
@@ -20,9 +21,9 @@ Il est conseillé d'utiliser le CLI de Nest pour bootstraper un projet, cependan
 
 # Quel IDE choisir ?
 
-- Visual Studio Code <br> <br>
+- Visual Studio Code <br/> <br/>
 - WebStorm
-<br><br><br>
+<br/><br/><br/>
   
 ![h-300 w-300](assets/images/school/01-setup-env/vscode.png)
 ![float-right h-300](assets/images/school/01-setup-env/webstorm.png)
@@ -31,9 +32,9 @@ Il est conseillé d'utiliser le CLI de Nest pour bootstraper un projet, cependan
 
 # Bienvenue dans VSCode
 
-- Solution proposée par Microsoft<br><br>
-- Entièrement customisable, de nombreux plugins<br><br>
-- Paramétrer pour en faire un IDE complet prend du temps<br><br>
+- Solution proposée par Microsoft<br/><br/>
+- Entièrement customisable, de nombreux plugins<br/><br/>
+- Paramétrer pour en faire un IDE complet prend du temps<br/><br/>
 
 ![h-400 w-400](assets/images/school/01-setup-env/editorconfig.png)
 ![float-right h-400 w-400](assets/images/school/01-setup-env/prettier.svg)
@@ -42,26 +43,25 @@ Il est conseillé d'utiliser le CLI de Nest pour bootstraper un projet, cependan
 
 # Bienvenue dans Webstorm
 
-- Solution proposée par JetBrains (éditeur d'IDE) <br><br>
-- Vient avec tout le nécessaire (debug, tests, support syntaxique pour les frameworks front) <br><br>
-- Payant mais très puissant <br><br>
+- Solution proposée par Jetbrains (éditeur d'IDE) <br/><br/>
+- Vient avec tout le nécessaire (debug, tests, support syntaxique pour les frameworks front) <br/><br/>
+- Payant mais très puissant <br/><br/>
 
 ##==##
 
 <!-- .slide: class="with-code inconsolata" -->
 # Dépendances nécessaires aux TPS
-
 Déplacez vous dans le dossier steps et tapez la commande suivante:
-```shell
+```bash
 npm install
 ```
 <!-- .element: class="big-code" -->
 
-<br>
+<br/>
 ou
-<br><br>
+<br/><br/>
 
-```shell
+```bash
 npm ci
 ```
 <!-- .element: class="big-code"-->
@@ -70,21 +70,20 @@ npm ci
 
 <!-- .slide: class="with-code inconsolata" -->
 # Comment lancer l'exercice d'un TP 
-
 Dans le dossier steps/apps, il y a un dossier par concept / chapitre
 
-Pour lancer le serveur **Nest** contenu dans ce dossier il vous suffira de lancer la commande suivante dans le dossiers steps <br><br>
+Pour lancer le serveur **Nest** contenu dans ce dossier il vous suffira de lancer la commande suivante dans le dossiers steps <br/><br/>
 
-```shell
+```bash
 npm run start -- _nom_dossier_dans_apps__
 ```
 <!-- .element: class="big-code" -->
 
-<br><br><br>
+<br/><br/>
 
 ## Exemple
 
-```shell
+```bash
 npm run start -- 02-bootstaping
 ```
 <!-- .element: class="big-code" -->

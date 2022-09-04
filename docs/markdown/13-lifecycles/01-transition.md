@@ -1,3 +1,3 @@
 
-<!-- .slide: class="transition-bg-grey-4 underline" -->
-# Lifeccycles
+<!-- .slide: class="transition-bg-sfeir-1 green" -->
+# Lifecycles

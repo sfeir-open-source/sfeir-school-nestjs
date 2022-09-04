@@ -1,7 +1,7 @@
-<!-- .slide: class="with-code insocnsolata" -->
+<!-- .slide: class="with-code inconsolata" -->
 # Comment définir un handler sur un endpoint donné
 **Un handler est une simple fonction précédée d'une annotation**
-<br><br>
+<br/><br/>
 
 ```typescript
 @Get('hello')
@@ -14,15 +14,15 @@ function sayHello() {
 ##==##
 
 ## Quelles sont les annotations disponibles ?
-- __@GET__: le handler est accessible via la methode GET <br><br>
-- __@Post__: le handler est accessible via la méthode POST <br><br>
-- __@Put__: le handler est accessible via la méthode PUT <br><br>
-- __@Patch__: le handler est accessible via la méthode PATCH <br><br>
-- __@Delete__: le handler est accessible via la méthode DELETE<br><br>
-- __@ALL__: le handler est accesssible via toutes les méthodes
+- __@GET__: le handler est accessible via la méthode GET <br/><br/>
+- __@Post__: le handler est accessible via la méthode POST <br/><br/>
+- __@Put__: le handler est accessible via la méthode PUT <br/><br/>
+- __@Patch__: le handler est accessible via la méthode PATCH <br/><br/>
+- __@Delete__: le handler est accessible via la méthode DELETE<br/><br/>
+- __@ALL__: le handler est accessible via toutes les méthodes
 
 Notes:
-- Il est important de remarquer que les annotations @Get, @Post, @Put, @Patch, @Delete prennent en parèmètre
+- Il est important de remarquer que les annotations @Get, @Post, @Put, @Patch, @Delete prennent en paramètre
 une string définissant un endpoint complémentaire à l'endpoint du controller
 
 ##==##
@@ -30,7 +30,7 @@ une string définissant un endpoint complémentaire à l'endpoint du controller
 <!-- .slide: class="with-code inconsolata" --> 
 # La magie du caractère __":"__
 
-- Permet de rendre un endpoint d'handler dynamique <br><br>
+- Permet de rendre un endpoint d'handler dynamique <br/><br/>
 
 ```typescript
 @Get('hello/:person')
@@ -44,13 +44,13 @@ function sayHelloToPerson(@Param('person') name: string) {
 
 # Les annotations de récupération de paramètres
 
-- __@Request() / @Req()__ permet de récupérer la requête dans son intégralité <br><br>
-- __@Response() / @Res()__ permet de récupérer la réponse dans son intégralité <br><br>
-- __@Session()__ permet de récupérer la session courante <br><br>
-- __@Param(name_param?)__ permet de récupérer tous ou l'unique paramètre <br><br>
-- __@Body(key?)__ permet de récupérer le body dans son intégralité ou partiellement <br><br>
-- __@Query(key?)__ permet de tous ou un unique query paramètre<br><br>
-- __@Ip()__ permet de récupérer l'adresse ip de l'host <br><br>
+- __@Request() / @Req()__ permet de récupérer la requête dans son intégralité <br/><br/>
+- __@Response() / @Res()__ permet de récupérer la réponse dans son intégralité <br/><br/>
+- __@Session()__ permet de récupérer la session courante <br/><br/>
+- __@Param(name_param?)__ permet de récupérer tous ou l'unique paramètre <br/><br/>
+- __@Body(key?)__ permet de récupérer le body dans son intégralité ou partiellement <br/><br/>
+- __@Query(key?)__ permet de tous ou un unique query paramètre<br/><br/>
+- __@Ip()__ permet de récupérer l'adresse ip de l'host <br/><br/>
 - __@HostParam()__ permet de récupérer l'ensemble des hosts
 
 ##==##
@@ -78,7 +78,7 @@ function updateUser(@Body('password') update: body) {
 
 # Les annotations de modifications de réponse
 
-Les annotations permettant de modifier la réponse <br><br>
+Les annotations permettant de modifier la réponse <br/><br/>
 
-- __HttpCode()__  permet de modifier le status http de la réponse <br><br>
+- __HttpCode()__  permet de modifier le status http de la réponse <br/><br/>
 - __Redirect()__ permet de réaliser une redirection
